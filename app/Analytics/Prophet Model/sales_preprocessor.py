@@ -24,12 +24,12 @@ except ImportError:
     print("Error: config.py not found or missing SUPABASE_URL/SUPABASE_KEY.")
     sys.exit(1)
 
-MAX_ROWS = 50000
+MAX_ROWS = 100000
 MAX_RETRIES = 3 
 _CACHED_SALES_DATA = None 
 
 RPC_COLUMNS = [
-    'gross_revenue',
+    'net_sales',
     'total_items_sold',
     'platform_key',
     'date', 
@@ -39,10 +39,10 @@ RPC_COLUMNS = [
     'avg_paid_price',
     'avg_original_price',
     'avg_discount_rate',
-    'prev_day_revenue',
-    'daily_revenue_growth',
-    'rolling_revenue_7d',
-    'rolling_revenue_growth_7d',
+    'prev_day_sales',
+    'daily_sales_growth',
+    'rolling_sales_7d',
+    'rolling_sales_growth_7d',
     'rolling_discount_rate_7d',
     'discount_change_rate_1d',
     'price_change_rate_1d',
@@ -51,7 +51,7 @@ RPC_COLUMNS = [
 # - to delete once db is filled -
 # --- NEW GLOBAL CONSTANTS FOR FILLER LOGIC ---
 SHOPEE_HISTORICAL_YEARLY_AGGREGATES = {
-    # These are the correct, desired revenue targets.
+    # These are the correct, desired sales targets.
     2020: 10949,
     2021: 3396123,
     2022: 7799930,
@@ -62,18 +62,18 @@ SHOPEE_START_DATE = date(2020, 9, 19)
 
 # Existing Monthly data for 2024 (used for seasonal index/AOV proxy)
 shopee_2024_monthly_data = [
-    {'gross_revenue': 710711, 'avg_order_value': 528.41},  # Jan 2024
-    {'gross_revenue': 472977, 'avg_order_value': 563.07},   # Feb 2024
-    {'gross_revenue': 515507, 'avg_order_value': 593.90},   # Mar 2024
-    {'gross_revenue': 656759, 'avg_order_value': 567.64},   # Apr 2024
-    {'gross_revenue': 867408, 'avg_order_value': 610.06},   # May 2024
-    {'gross_revenue': 725489, 'avg_order_value': 633.61},   # Jun 2024
-    {'gross_revenue': 847212, 'avg_order_value': 639.89},   # Jul 2024
-    {'gross_revenue': 779787, 'avg_order_value': 586.75},   # Aug 2024
-    {'gross_revenue': 636100, 'avg_order_value': 619.98},   # Sep 2024
-    {'gross_revenue': 583596, 'avg_order_value': 662.42},   # Oct 2024
-    {'gross_revenue': 605118, 'avg_order_value': 609.38},   # Nov 2024
-    {'gross_revenue': 691400, 'avg_order_value': 598.61},   # Dec 2024
+    {'net_sales': 710711, 'avg_order_value': 528.41},  # Jan 2024
+    {'net_sales': 472977, 'avg_order_value': 563.07},   # Feb 2024
+    {'net_sales': 515507, 'avg_order_value': 593.90},   # Mar 2024
+    {'net_sales': 656759, 'avg_order_value': 567.64},   # Apr 2024
+    {'net_sales': 867408, 'avg_order_value': 610.06},   # May 2024
+    {'net_sales': 725489, 'avg_order_value': 633.61},   # Jun 2024
+    {'net_sales': 847212, 'avg_order_value': 639.89},   # Jul 2024
+    {'net_sales': 779787, 'avg_order_value': 586.75},   # Aug 2024
+    {'net_sales': 636100, 'avg_order_value': 619.98},   # Sep 2024
+    {'net_sales': 583596, 'avg_order_value': 662.42},   # Oct 2024
+    {'net_sales': 605118, 'avg_order_value': 609.38},   # Nov 2024
+    {'net_sales': 691400, 'avg_order_value': 598.61},   # Dec 2024
 ]
 # - delete until here -
 
@@ -86,8 +86,8 @@ def _generate_shopee_monthly_targets():
     using 2024's monthly distribution as a seasonal index for historical years.
     """
     # 1. Calculate Monthly Seasonal Weights from 2024 data
-    total_2024_revenue = sum(d['gross_revenue'] for d in shopee_2024_monthly_data)
-    monthly_seasonal_weights = [d['gross_revenue'] / total_2024_revenue for d in shopee_2024_monthly_data]
+    total_2024_sales = sum(d['net_sales'] for d in shopee_2024_monthly_data)
+    monthly_seasonal_weights = [d['net_sales'] / total_2024_sales for d in shopee_2024_monthly_data]
     
     # Use the average monthly AOV/Pricing as a proxy for the entire historical year
     monthly_avg_aov = [d['avg_order_value'] for d in shopee_2024_monthly_data]
@@ -95,7 +95,7 @@ def _generate_shopee_monthly_targets():
     all_monthly_targets = []
     
     # Handle historical years (2020-2023)
-    for year, yearly_target_revenue in SHOPEE_HISTORICAL_YEARLY_AGGREGATES.items():
+    for year, yearly_target_sales in SHOPEE_HISTORICAL_YEARLY_AGGREGATES.items():
         
         # Determine the sum of weights for the active months in this year
         start_month_index = 0
@@ -115,9 +115,9 @@ def _generate_shopee_monthly_targets():
             
             # Distribute the yearly target based on active weights
             if active_weights_sum > 0:
-                 monthly_revenue = yearly_target_revenue * (month_weight / active_weights_sum)
+                 monthly_sales = yearly_target_sales * (month_weight / active_weights_sum)
             else:
-                 monthly_revenue = yearly_target_revenue * month_weight
+                 monthly_sales = yearly_target_sales * month_weight
                 
             # Use the 2024 average order value as a proxy for all years
             monthly_aov = monthly_avg_aov[month_index]
@@ -125,7 +125,7 @@ def _generate_shopee_monthly_targets():
             all_monthly_targets.append({
                 'year': year,
                 'month': month_index + 1,
-                'gross_revenue': monthly_revenue,
+                'net_sales': monthly_sales,
                 'avg_order_value': monthly_aov
             })
             
@@ -134,7 +134,7 @@ def _generate_shopee_monthly_targets():
         all_monthly_targets.append({
             'year': 2024,
             'month': month_index + 1,
-            'gross_revenue': shopee_2024_monthly_data[month_index]['gross_revenue'],
+            'net_sales': shopee_2024_monthly_data[month_index]['net_sales'],
             'avg_order_value': shopee_2024_monthly_data[month_index]['avg_order_value']
         })
         
@@ -177,12 +177,12 @@ def _calculate_trend_features(df: pd.DataFrame, platform: str) -> pd.DataFrame:
         
     df = df.sort_values('date').reset_index(drop=True)
 
-    df['prev_day_revenue'] = df['gross_revenue'].shift(1).fillna(0)
-    df['daily_revenue_growth'] = (df['gross_revenue'] - df['prev_day_revenue']) / df['prev_day_revenue'].replace(0, np.nan)
-    df['daily_revenue_growth'] = df['daily_revenue_growth'].fillna(0)
-    df['rolling_revenue_7d'] = df['gross_revenue'].rolling(window=7, min_periods=1).mean()
-    df['rolling_revenue_growth_7d'] = (df['gross_revenue'] - df['rolling_revenue_7d']) / df['rolling_revenue_7d'].replace(0, np.nan)
-    df['rolling_revenue_growth_7d'] = df['rolling_revenue_growth_7d'].fillna(0)
+    df['prev_day_sales'] = df['net_sales'].shift(1).fillna(0)
+    df['daily_sales_growth'] = (df['net_sales'] - df['prev_day_sales']) / df['prev_day_sales'].replace(0, np.nan)
+    df['daily_sales_growth'] = df['daily_sales_growth'].fillna(0)
+    df['rolling_sales_7d'] = df['net_sales'].rolling(window=7, min_periods=1).mean()
+    df['rolling_sales_growth_7d'] = (df['net_sales'] - df['rolling_sales_7d']) / df['rolling_sales_7d'].replace(0, np.nan)
+    df['rolling_sales_growth_7d'] = df['rolling_sales_growth_7d'].fillna(0)
     df['rolling_discount_rate_7d'] = df['avg_discount_rate'].rolling(window=7, min_periods=1).mean()
     df['discount_change_rate_1d'] = df['avg_discount_rate'].diff().fillna(0)
     df['price_change_rate_1d'] = df['avg_paid_price'].diff().fillna(0)
@@ -202,7 +202,7 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
     print("\n[NOTE] Applying REFACTORED Shopee data filler across 2020-2024...")
 
     if df_shopee_existing.empty:
-        df_shopee_existing = pd.DataFrame({'date': pd.to_datetime([]), 'gross_revenue': []})
+        df_shopee_existing = pd.DataFrame({'date': pd.to_datetime([]), 'net_sales': []})
 
     start_date = pd.to_datetime(SHOPEE_START_DATE)
     end_date = pd.to_datetime('2024-12-31')
@@ -221,9 +221,9 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
     year_2020 = 2020
     
     # Calculate overall 2020 deficit
-    existing_revenue_2020 = df_shopee_existing[df_shopee_existing['date'].dt.year == year_2020]['gross_revenue'].sum()
-    target_revenue_2020 = SHOPEE_HISTORICAL_YEARLY_AGGREGATES.get(year_2020, 0)
-    total_deficit_2020 = target_revenue_2020 - existing_revenue_2020
+    existing_sales_2020 = df_shopee_existing[df_shopee_existing['date'].dt.year == year_2020]['net_sales'].sum()
+    target_sales_2020 = SHOPEE_HISTORICAL_YEARLY_AGGREGATES.get(year_2020, 0)
+    total_deficit_2020 = target_sales_2020 - existing_sales_2020
     
     # Find all missing dates in 2020
     missing_dates_2020 = [d for d in missing_dates if d.year == year_2020 and d.date() >= SHOPEE_START_DATE]
@@ -233,7 +233,7 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
         # Use a placeholder monthly data for pricing info (e.g., Dec 2020 target)
         monthly_data_2020_proxy = df_all_targets[(df_all_targets['year'] == year_2020) & (df_all_targets['month'] == 12)].iloc[0]
         
-        print(f"  - YEAR {year_2020}: Total Target ₱{target_revenue_2020:,.0f}, Existing ₱{existing_revenue_2020:,.0f}. Filling NET DEFICIT of ₱{total_deficit_2020:,.0f} across {len(missing_dates_2020)} missing days. (Skipping monthly weighing/redistribution)")
+        print(f"  - YEAR {year_2020}: Total Target ₱{target_sales_2020:,.0f}, Existing ₱{existing_sales_2020:,.0f}. Filling NET DEFICIT of ₱{total_deficit_2020:,.0f} across {len(missing_dates_2020)} missing days. (Skipping monthly weighing/redistribution)")
 
         # --- Run the weighting/simulation logic for 2020 missing days ---
         day_props = []
@@ -271,7 +271,7 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
         # NORMALIZE & CREATE RECORDS:
         total_weight = sum(d['weight'] for d in day_props)
         if total_weight > 0:
-             unit_revenue = total_deficit_2020 / total_weight
+             unit_sales = total_deficit_2020 / total_weight
         
              avg_paid_price = monthly_data_2020_proxy['avg_order_value']
              avg_original_price = avg_paid_price / 0.95 
@@ -280,12 +280,12 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
              avg_item_price_per_sale = avg_paid_price / ASSUMED_ITEMS_PER_ORDER
 
              for day in day_props:
-                 daily_revenue = day['weight'] * unit_revenue
+                 daily_sales = day['weight'] * unit_sales
                  daily_items = 0
-                 if daily_revenue > 0 and avg_item_price_per_sale > 0:
-                     daily_items = math.ceil(daily_revenue / avg_item_price_per_sale)
-                 elif daily_revenue < 0:
-                     daily_revenue = 0
+                 if daily_sales > 0 and avg_item_price_per_sale > 0:
+                     daily_items = math.ceil(daily_sales / avg_item_price_per_sale)
+                 elif daily_sales < 0:
+                     daily_sales = 0
 
                  daily_record = {
                      'date': day['date'],
@@ -293,7 +293,7 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
                      'platform_name': 'Shopee',
                      'is_mega_sale_day': day['is_mega_sale_day'],
                      'is_payday': day['is_payday'],
-                     'gross_revenue': daily_revenue,
+                     'net_sales': daily_sales,
                      'total_items_sold': daily_items,
                      'avg_paid_price': avg_paid_price,
                      'avg_original_price': avg_original_price,
@@ -314,30 +314,30 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
         start_of_month = date(year, month_num, 1)
         end_of_month = start_of_month + relativedelta(months=1) - relativedelta(days=1)
         
-        monthly_target_revenue = monthly_data['gross_revenue']
+        monthly_target_sales = monthly_data['net_sales']
         
-        # 1. CROSS-CHECK: Calculate revenue from *existing* DB records for this month
+        # 1. CROSS-CHECK: Calculate sales from *existing* DB records for this month
         df_month_existing = df_shopee_existing[
             (df_shopee_existing['date'] >= pd.to_datetime(start_of_month)) &
             (df_shopee_existing['date'] <= pd.to_datetime(end_of_month))
         ]
         
-        revenue_existing = df_month_existing['gross_revenue'].sum()
+        sales_existing = df_month_existing['net_sales'].sum()
 
-        # 2. CALCULATE DEFICIT: Find revenue we need to generate
-        revenue_deficit = monthly_target_revenue - revenue_existing
+        # 2. CALCULATE DEFICIT: Find sales we need to generate
+        sales_deficit = monthly_target_sales - sales_existing
         
         # Find the specific missing days for *this* month
         month_missing_dates = [d for d in missing_dates if d.year == year and d.month == month_num and d.date() >= start_of_month]
         
         # --- NORMAL HANDLING (2021-2024): ONLY FILL IF POSITIVE DEFICIT ---
-        if revenue_deficit <= 0 or not month_missing_dates:
+        if sales_deficit <= 0 or not month_missing_dates:
             continue
             
-        deficit_to_fill = revenue_deficit
+        deficit_to_fill = sales_deficit
         
         # This is the print line for 2021+ months being filled
-        print(f"  - Month {year}-{month_num:02d}: Target ₱{monthly_target_revenue:,.0f}, Existing ₱{revenue_existing:,.0f}. Filling deficit of ₱{deficit_to_fill:,.0f} across {len(month_missing_dates)} days.")
+        print(f"  - Month {year}-{month_num:02d}: Target ₱{monthly_target_sales:,.0f}, Existing ₱{sales_existing:,.0f}. Filling deficit of ₱{deficit_to_fill:,.0f} across {len(month_missing_dates)} days.")
 
 
         # 3. SIMULATE: Distribute deficit across missing days with weighted logic
@@ -378,7 +378,7 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
         if total_weight == 0:
              continue
              
-        unit_revenue = deficit_to_fill / total_weight
+        unit_sales = deficit_to_fill / total_weight
         
         # Monthly average pricing from the generated targets
         avg_paid_price = monthly_data['avg_order_value']
@@ -388,12 +388,12 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
         avg_item_price_per_sale = avg_paid_price / ASSUMED_ITEMS_PER_ORDER
 
         for day in day_props:
-            daily_revenue = day['weight'] * unit_revenue
+            daily_sales = day['weight'] * unit_sales
             daily_items = 0
-            if daily_revenue > 0 and avg_item_price_per_sale > 0:
-                daily_items = math.ceil(daily_revenue / avg_item_price_per_sale)
-            elif daily_revenue < 0:
-                daily_revenue = 0
+            if daily_sales > 0 and avg_item_price_per_sale > 0:
+                daily_items = math.ceil(daily_sales / avg_item_price_per_sale)
+            elif daily_sales < 0:
+                daily_sales = 0
 
             daily_record = {
                 'date': day['date'],
@@ -401,7 +401,7 @@ def _fill_shopee_missing_data(df_shopee_existing: pd.DataFrame, all_monthly_targ
                 'platform_name': 'Shopee',
                 'is_mega_sale_day': day['is_mega_sale_day'],
                 'is_payday': day['is_payday'],
-                'gross_revenue': daily_revenue,
+                'net_sales': daily_sales,
                 'total_items_sold': daily_items,
                 'avg_paid_price': avg_paid_price,
                 'avg_original_price': avg_original_price,
@@ -452,64 +452,10 @@ def load_base_sales_data(start_date='2020-09-19'):
 
             df_raw = _process_dataframe(response.data)
             
-            # - to delete once db is filled -
-            # --- CRITICAL REFACTORED STEP: Fill all missing Shopee data (2020-2024) ---
             
-            # 1. Isolate *all* existing Shopee data across all years (2020 onwards)
-            df_shopee_existing = df_raw[
-                (df_raw['platform_name'] == 'Shopee')
-            ].copy()
-
-            # --- AGGREGATE CHECK START (Per User Request) ---
-            print("\n[CHECK] Verifying existing Shopee yearly revenue against expected targets (2020-2023)...")
-            
-            for year, expected_total in SHOPEE_HISTORICAL_YEARLY_AGGREGATES.items():
-                if year >= 2024: continue 
-                
-                df_year = df_shopee_existing[df_shopee_existing['date'].dt.year == year]
-                existing_total = df_year['gross_revenue'].sum()
-                
-                diff = expected_total - existing_total # Target - Existing
-                
-                if abs(diff) > 1.0: 
-                    if diff > 1.0:
-                        # Target > Existing (Expected deficit for the filler)
-                        print(f"[WARNING] 🟡 EXPECTED DEFICIT DETECTED for {year}.")
-                        print(f"    Target Aggregate (Hardcoded): ₱{expected_total:,.0f}")
-                        print(f"    Existing DB Data Revenue:     ₱{existing_total:,.0f}")
-                        print(f"    Revenue Deficit:              ₱{diff:,.0f} (Will be filled synthetically)")
-                    else:
-                         # Existing > Target (Target is too low)
-                         print(f"[WARNING] 🛑 TARGET TOO LOW DETECTED for {year}!")
-                         print(f"    Target Aggregate (Hardcoded): ₱{expected_total:,.0f}")
-                         print(f"    Existing DB Data Revenue:     ₱{existing_total:,.0f}")
-                         print(f"    Revenue OVERAGE:              ₱{abs(diff):,.0f} (Existing data exceeds target, check target value)")
-                else:
-                    print(f"    {year}: OK. Existing Revenue matches Expected (Diff < ₱1.00).")
-            print("[CHECK] Verification complete.")
-            # --- AGGREGATE CHECK END ---
-
-            # 2. Isolate *all* other data (non-Shopee)
-            df_others = df_raw[
-                (df_raw['platform_name'] != 'Shopee')
-            ].copy()
-
-            # 3. Generate the required monthly targets for 2020-2024
-            all_monthly_targets = _generate_shopee_monthly_targets()
-
-            # 4. Call the refactored filler function
-            # This returns a complete Shopee block with trends calculated
-            df_shopee_filled = _fill_shopee_missing_data(df_shopee_existing, all_monthly_targets)
-            
-            # 5. Recombine the dataframes
-            df_combined = pd.concat([df_others, df_shopee_filled], ignore_index=True)
-            
-            # Final processing step
-            df_final = df_combined[RPC_COLUMNS].copy()
-            # - delete until here -
             
             # NOTE: When the data is fully loaded, this section will be replaced by:
-            # df_final = df_raw[RPC_COLUMNS].copy()
+            df_final = df_raw[RPC_COLUMNS].copy()
             
             print(f"[SUCCESS] Predictive model data loading complete. Loaded {len(df_final)} total rows (Real + Synthetic).")
             
@@ -545,7 +491,7 @@ def preprocess_sales_data(df_raw: pd.DataFrame) -> pd.DataFrame:
     # 1. Aggregation Strategy for Daily Metrics
     aggregation_schema = {
         'total_items_sold': 'sum',
-        'gross_revenue': 'sum',
+        'net_sales': 'sum',
         'avg_discount_rate': 'mean',
         'is_mega_sale_day': 'max',
         'is_payday': 'max',
@@ -558,7 +504,7 @@ def preprocess_sales_data(df_raw: pd.DataFrame) -> pd.DataFrame:
     df_daily = df_daily.rename(columns={
         'date': 'ds',
         'total_items_sold': 'daily_items_sold', 
-        'gross_revenue': 'daily_gross_revenue',
+        'net_sales': 'daily_net_sales',
         'avg_discount_rate': 'avg_discount_rate_daily', 
     })
     
@@ -582,7 +528,7 @@ def preprocess_sales_data(df_raw: pd.DataFrame) -> pd.DataFrame:
             df_resampled[col] = df_resampled[col].ffill().fillna(0).astype(int)
 
         df_resampled['daily_items_sold'] = df_resampled['daily_items_sold'].fillna(0)
-        df_resampled['daily_gross_revenue'] = df_resampled['daily_gross_revenue'].fillna(0)
+        df_resampled['daily_net_sales'] = df_resampled['daily_net_sales'].fillna(0)
         
         df_processed.append(df_resampled.reset_index())
 

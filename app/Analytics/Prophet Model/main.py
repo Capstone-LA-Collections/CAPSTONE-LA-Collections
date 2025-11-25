@@ -18,7 +18,7 @@ def plot_historical_data(df: pd.DataFrame):
     print("\nSAVING OUTPUT: Plotting historical daily items sold...")
     
     # Ensure output directory exists
-    plot_dir = 'model_outputs/historical'
+    plot_dir = 'app/Analytics/Prophet Model/outputs/historical'
     os.makedirs(plot_dir, exist_ok=True)
     
     # Plotting loop for each platform
@@ -26,11 +26,11 @@ def plot_historical_data(df: pd.DataFrame):
         df_platform = df[df['platform_name'] == platform]
         
         plt.figure(figsize=(12, 6))
-        plt.plot(df_platform['ds'], df_platform['daily_items_sold'], label=platform, linewidth=1.5)
+        plt.plot(df_platform['ds'], df_platform['daily_net_sales'], label=platform, linewidth=1.5)
         
-        plt.title(f'Historical Daily Items Sold - {platform}')
+        plt.title(f'Historical Daily Net Sales - {platform}')
         plt.xlabel('Date')
-        plt.ylabel('Daily Items Sold')
+        plt.ylabel('Daily Net Sales')
         plt.grid(True, linestyle='--', alpha=0.6)
         
         filename = os.path.join(plot_dir, f'historical_sales_{platform}.png')
@@ -41,7 +41,7 @@ def plot_historical_data(df: pd.DataFrame):
 
 def save_platform_data_to_csv(df: pd.DataFrame):
     """Saves the processed DataFrame for each unique platform to a separate CSV file."""
-    output_dir = 'model_outputs/historical'
+    output_dir = 'app/Analytics/Prophet Model/outputs/historical'
     os.makedirs(output_dir, exist_ok=True)
     
     for platform in df['platform_name'].unique():
@@ -84,7 +84,7 @@ def main_pipeline():
     df_prophet_ready = preprocess_sales_data(df_raw)
 
     print("\nSTEP 2.5: Building Time-Series Features...")
-    df_prophet_ready = build_time_series_features(df_prophet_ready, target_col='daily_items_sold')
+    df_prophet_ready = build_time_series_features(df_prophet_ready, target_col='daily_net_sales')
 
     plot_historical_data(df_prophet_ready)
     print("\nSAVING OUTPUT: Saving final processed data to separate CSVs...")

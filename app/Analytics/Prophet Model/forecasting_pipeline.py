@@ -20,7 +20,7 @@ logging.getLogger('cmdstanpy').setLevel(logging.ERROR)
 # This addresses the warnings seen in the original output.
 warnings.filterwarnings('ignore', category=FutureWarning)
 
-OUTPUT_DIR = 'model_outputs'
+OUTPUT_DIR = 'app/Analytics/Prophet Model/outputs'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
@@ -45,7 +45,7 @@ def _run_single_platform_pipeline(model: Prophet, df_input: pd.DataFrame, platfo
         # --- Cross-Validation (CV) ---
         print(f"Running cross-validation for {platform_name}...")
         
-        horizon_days = 90
+        horizon_days = 365
         horizon = f'{horizon_days} days' 
         required_periods = 7 # To achieve 8 total cuts
 
@@ -63,11 +63,10 @@ def _run_single_platform_pipeline(model: Prophet, df_input: pd.DataFrame, platfo
             period_days = 7
             print(f"  [WARNING] {platform_name} has insufficient data for CV. Total days: {total_days}")
         else:
-            # Calculate the largest period that still gives us 7 periods (8 cuts)
-            period_days = remaining_cv_days // required_periods
-                
-                # Cap period at 90 days and ensure a minimum of 7 days
-            period_days = min(90, max(7, period_days)) 
+            if platform_name == 'Shopee':
+                period_days = 81
+            else:
+                period_days = 27   
 
         period = f'{period_days} days'
                  
@@ -121,7 +120,7 @@ def _run_single_platform_pipeline(model: Prophet, df_input: pd.DataFrame, platfo
         # This function signature uses the model's fitted history.
         # ==================================================================
         future = model.make_future_dataframe(
-            periods=90, 
+            periods=365, 
             include_history=True,
             freq='D'
         )
@@ -155,7 +154,7 @@ def _run_single_platform_pipeline(model: Prophet, df_input: pd.DataFrame, platfo
         print(f"Forecast data saved to: {forecast_path}")
 
         # Plot the forecast
-        fig = model.plot(forecast, xlabel="Date", ylabel="Daily Items Sold")
+        fig = model.plot(forecast, xlabel="Date", ylabel="Daily Net Sales")
         
         # Generate and close component plot
         a = model.plot_components(forecast) 
@@ -164,7 +163,7 @@ def _run_single_platform_pipeline(model: Prophet, df_input: pd.DataFrame, platfo
         ax = fig.gca()
         ax.set_title(f"Sales Forecast for {platform_name}", fontsize=16)
         ax.set_xlabel("Date")
-        ax.set_ylabel("Daily Items Sold")
+        ax.set_ylabel("Daily Net Sales")
         ax.legend()
         plt.grid(True, alpha=0.3)
         fig.savefig(os.path.join(OUTPUT_DIR, f"{platform_name}_forecast_plot.png"))
@@ -193,7 +192,7 @@ def run_cross_validation_and_forecast(segmented_models: dict, df_prophet_ready: 
         # Get the specific segment data and rename target column to 'y'
         df_segment = df_prophet_ready[df_prophet_ready['platform_name'] == platform_name].copy()
         # Ensure 'daily_items_sold' is renamed to 'y' for consistency with internal function
-        df_segment = df_segment.rename(columns={'daily_items_sold': 'y'})
+        df_segment = df_segment.rename(columns={'daily_net_sales': 'y'})
         
         # Pass the regressor list down
         success = _run_single_platform_pipeline(model, df_segment, platform_name, regressor_cols)

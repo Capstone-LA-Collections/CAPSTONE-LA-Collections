@@ -71,16 +71,16 @@ def build_time_series_features(df, target_col, lag_periods=[1, 7, 14, 30, 60], r
     # ======================
     
     # Target value for lag/rolling features
-    df['daily_items_sold'] = df[target_col]
+    df['daily_net_sales'] = df[target_col]
     
     # Lag Features (Past sales count)
     for lag in lag_periods:
-        # Use shift(-lag) to align lag_n_items_sold with the date when sales *occurred*
-        df[f'lag_{lag}_items_sold'] = df['daily_items_sold'].shift(lag)
+        # Use shift(-lag) to align lag_n_net_sales with the date when sales *occurred*
+        df[f'lag_{lag}_net_sales'] = df['daily_net_sales'].shift(lag)
 
     # Rolling Mean Features (Averaged past sales)
-    df[f'rolling_7_items_sold'] = df['daily_items_sold'].shift(1).rolling(window=7, min_periods=1).mean()
-    df[f'rolling_{rolling_window}_items_sold'] = df['daily_items_sold'].shift(1).rolling(window=rolling_window, min_periods=1).mean()
+    df[f'rolling_7_net_sales'] = df['daily_net_sales'].shift(1).rolling(window=7, min_periods=1).mean()
+    df[f'rolling_{rolling_window}_net_sales'] = df['daily_net_sales'].shift(1).rolling(window=rolling_window, min_periods=1).mean()
 
 
     # ======================
@@ -88,11 +88,11 @@ def build_time_series_features(df, target_col, lag_periods=[1, 7, 14, 30, 60], r
     # ======================
     
     # CRITICAL: Use the daily sales column for calculating raw growth rate
-    df['daily_revenue_growth_smoothed'] = df['daily_gross_revenue'].pct_change().rolling(window=7, min_periods=1).mean()
+    df['daily_sales_growth_smoothed'] = df['daily_net_sales'].pct_change().rolling(window=7, min_periods=1).mean()
     
     # New Raw Daily Growth Feature (Non-Recursive, as long as it's not lagged)
     # Note: Prophet is sensitive to NaNs in regressors, so fill the first day with 0.0.
-    df['daily_growth_rate'] = df['daily_items_sold'].pct_change().fillna(0.0)
+    df['daily_growth_rate'] = df['daily_net_sales'].pct_change().fillna(0.0)
     df['daily_growth_rate'] = df['daily_growth_rate'].replace([np.inf, -np.inf], 0.0)
 
     # ======================
@@ -118,8 +118,9 @@ def build_time_series_features(df, target_col, lag_periods=[1, 7, 14, 30, 60], r
     
     MONTHLY_COMPONENTS = 4
     MONTHLY_PERIOD = 30.5
-    
+    df = _add_fourier_components(df, period=7, n_order=3, name='fourier_week')
     df = _add_fourier_components(df, MONTHLY_PERIOD, MONTHLY_COMPONENTS, 'fourier_month')
+    df = _add_fourier_components(df, period=365.25, n_order=10, name='fourier_year')
 
     # ======================
     # 🧹 7. FINAL CLEANUP AND DROPS
@@ -131,8 +132,8 @@ def build_time_series_features(df, target_col, lag_periods=[1, 7, 14, 30, 60], r
     
     # Drop intermediate columns
     df = df.drop(columns=[c for c in ['year', 'month', 'dayofweek', 'dayofyear', 'weekofyear', 'quarter', 'days_since_start'] if c in df.columns], errors='ignore')    
-    # Rename 'daily_items_sold' back to the target for the next step, but ensure 'ds' is present
-    df = df.rename(columns={'daily_items_sold': target_col})
+    # Rename 'daily_net_sales' back to the target for the next step, but ensure 'ds' is present
+    df = df.rename(columns={'daily_net_sales': target_col})
 
     numeric_cols = df.select_dtypes(include=np.number).columns
     df[numeric_cols] = df[numeric_cols].replace([np.inf, -np.inf], np.nan).fillna(0.0)

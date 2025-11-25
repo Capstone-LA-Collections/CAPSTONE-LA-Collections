@@ -125,7 +125,7 @@ def tune_model_hyperparameters(df_input: pd.DataFrame, holidays_df: pd.DataFrame
     # 1. Prepare Data Segments
     df_segment_map = {}
     df_prep = df_input.rename(
-        columns={'daily_items_sold': 'y', 'date': 'ds'}
+        columns={'daily_net_sales': 'y', 'date': 'ds'}
     ).copy()
     
     platform_names = df_prep['platform_name'].unique()
@@ -146,14 +146,15 @@ def tune_model_hyperparameters(df_input: pd.DataFrame, holidays_df: pd.DataFrame
         'seasonality_prior_scale': [0.01, 0.05, 0.1, 0.5, 1, 5, 10],
         'holidays_prior_scale': [0.01, 0.05, 0.1, 0.5, 1, 5, 10],
         'seasonality_mode': ['multiplicative', 'additive'],
-        'daily_seasonality': [True, False]
+        'yearly_seasonality': [True,],
+        'weekly_seasonality': [True],
+        'daily_seasonality': [True]
     }
 
     all_params = list(ParameterGrid(param_grid))
     overall_maes = [] 
-    horizon_days = 90
+    horizon_days = 365
     horizon = f'{horizon_days} days' 
-    required_periods = 7 # To achieve 8 total cuts
 
     # 2. Iterate through all parameter sets
     for i, params in enumerate(all_params):
@@ -180,10 +181,10 @@ def tune_model_hyperparameters(df_input: pd.DataFrame, holidays_df: pd.DataFrame
                 print(f"  [WARNING] {platform_name} has insufficient data for CV. Total days: {total_days}")
             else:
                 # Calculate the largest period that still gives us 7 periods (8 cuts)
-                period_days = remaining_cv_days // required_periods
-                
-                # Cap period at 90 days and ensure a minimum of 7 days
-                period_days = min(90, max(7, period_days)) 
+                if platform_name == 'Shopee':
+                    period_days = 81
+                else:
+                    period_days = 27    
 
             period = f'{period_days} days'
                  
@@ -253,18 +254,28 @@ def create_and_fit_segmented_models(df_input: pd.DataFrame, holidays_df: pd.Data
 
     # --- REGRESSOR SELECTION ---
     # Use a predefined list of features identified from feature engineering
-    EXCLUDED_COLS = ['ds', 'y', 'daily_items_sold', 'platform_name', 'daily_gross_revenue', 
-                     'daily_revenue_growth_smoothed', 'rolling_revenue_growth_7d','is_mega_sale_day', 'is_payday']
+    EXCLUDED_COLS = ['ds', 'y', 'platform_name', 'daily_net_sales', 'daily_items_sold',
+                     'daily_sales_growth_smoothed', 'rolling_sales_growth_7d','is_mega_sale_day', 'is_payday']
     
-    regressor_cols = [c for c in df_input.columns if c not in EXCLUDED_COLS]
+    base_regressors = [c for c in df_input.columns if c not in EXCLUDED_COLS]
+    
+    regressor_cols = [
+        c for c in base_regressors
+        if not c.startswith('lag_') and
+           not c.startswith('rolling_') and
+           not c.startswith('daily_growth_rate')
+    ]
+    
     print(f"Using {len(regressor_cols)} Regressors, excluding {EXCLUDED_COLS[4:]}: {regressor_cols}")
 
     # --- AGGRESSIVE TUNING PARAMETERS ---\
     TUNING_PARAMS = {
         'changepoint_prior_scale': 0.05, 
         'seasonality_prior_scale': 0.01,  
-        'holidays_prior_scale': 0.1,   
+        'holidays_prior_scale': 0.05,   
         'seasonality_mode': 'multiplicative',
+        'yearly_seasonality': True,
+        'weekly_seasonality':True,
         'daily_seasonality': True
     }
     
@@ -299,7 +310,7 @@ def create_and_fit_segmented_models(df_input: pd.DataFrame, holidays_df: pd.Data
         df_segment = df_input[df_input['platform_name'] == platform_name].copy()
         
         # 4. Prepare for fit
-        df_segment = df_segment.rename(columns={'daily_items_sold': 'y', 'date': 'ds'})
+        df_segment = df_segment.rename(columns={'daily_net_sales': 'y', 'date': 'ds'})
         
         # 5. Fit the model
         try:
