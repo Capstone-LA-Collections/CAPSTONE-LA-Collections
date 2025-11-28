@@ -249,6 +249,7 @@ def load_lazada_data():
 def load_shopee_data():
     """
     Load all Shopee product data from raw JSON files (yearly directories + fallback)
+    Category data is always loaded from main staging directory since it's not year-specific
     
     Returns:
         tuple: (products_data, productitem_data, variant_data, category_data, review_data)
@@ -256,25 +257,30 @@ def load_shopee_data():
     staging_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'Staging')
     yearly_path = os.path.join(staging_dir, 'Shopee Staging Yearly')
     
-    # Define all Shopee files
-    file_types = {
+    # Define yearly Shopee files (excluding categories which are not year-specific)
+    yearly_file_types = {
         'products': get_staging_filename('shopee', 'products'),
         'productitem': get_staging_filename('shopee', 'productitem'),
         'product_variant': get_staging_filename('shopee', 'product_variant'),
-        'productcategory': get_staging_filename('shopee', 'productcategory'),
         'productreview': get_staging_filename('shopee', 'productreview')
     }
     
-    loaded_data = {key: [] for key in file_types.keys()}
+    # Category file is always loaded from main staging (not yearly)
+    category_file_type = {
+        'productcategory': get_staging_filename('shopee', 'productcategory')
+    }
     
-    # Load from yearly directories
+    loaded_data = {key: [] for key in yearly_file_types.keys()}
+    loaded_data['productcategory'] = []
+    
+    # Load from yearly directories (excluding categories)
     if os.path.exists(yearly_path):
         print("📁 Loading Shopee product data from yearly directories...")
         for year_folder in sorted(os.listdir(yearly_path)):
             if year_folder.startswith('Shopee20'):
                 year_path = os.path.join(yearly_path, year_folder)
                 if os.path.isdir(year_path):
-                    for data_type, filename in file_types.items():
+                    for data_type, filename in yearly_file_types.items():
                         file_path = os.path.join(year_path, filename)
                         if os.path.exists(file_path):
                             try:
@@ -286,12 +292,12 @@ def load_shopee_data():
                                 print(f"⚠️ Error loading {data_type} from {year_folder}: {e}")
         
         # Print totals from yearly directories
-        for data_type in file_types.keys():
+        for data_type in yearly_file_types.keys():
             if loaded_data[data_type]:
                 print(f"📊 Total {data_type} from yearly directories: {len(loaded_data[data_type])}")
     
-    # Fallback to main staging directory for any missing data
-    for data_type, filename in file_types.items():
+    # Fallback to main staging directory for any missing yearly data
+    for data_type, filename in yearly_file_types.items():
         if not loaded_data[data_type]:
             file_path = os.path.join(staging_dir, filename)
             if os.path.exists(file_path):
@@ -304,6 +310,20 @@ def load_shopee_data():
                     print(f"⚠️ Error loading {filename}: {e}")
             else:
                 print(f"⚠️ File not found: {filename}")
+    
+    # Always load category data from main staging (not year-specific)
+    print("📁 Loading Shopee category data from main staging...")
+    category_file = os.path.join(staging_dir, category_file_type['productcategory'])
+    if os.path.exists(category_file):
+        try:
+            with open(category_file, 'r', encoding='utf-8') as f:
+                category_data = json.load(f)
+                loaded_data['productcategory'] = category_data
+                print(f"✅ Loaded {len(category_data)} category records from main staging")
+        except Exception as e:
+            print(f"⚠️ Error loading category data: {e}")
+    else:
+        print(f"⚠️ Category file not found: {category_file}")
     
     return (
         loaded_data.get('products', []),
@@ -415,7 +435,6 @@ def get_lazada_category_name(primary_category):
         8632: "Health & Beauty",
         18986: "Electronics",
         24428: "Fashion",
-        24442: "Automotive",
         10100546: "Baby & Toys"
     }
     return category_mapping.get(primary_category, f"Category_{primary_category}")
@@ -437,10 +456,30 @@ def get_shopee_category_name(category_id, category_data):
     # Create category mapping from the loaded data
     category_mapping = {}
     for category in category_data:
-        if isinstance(category, dict) and 'category_id' in category and 'category_name' in category:
-            category_mapping[category['category_id']] = category['category_name']
+        if isinstance(category, dict) and 'category_id' in category:
+            # Use display_category_name first, fallback to original_category_name
+            category_name = (
+                category.get('display_category_name') or 
+                category.get('original_category_name') or 
+                category.get('category_name')  # Legacy fallback
+            )
+            if category_name:
+                category_mapping[category['category_id']] = category_name
     
-    return category_mapping.get(category_id, f"Category_{category_id}")
+    # Print debug info if mapping is empty but data exists
+    if not category_mapping and category_data:
+        print(f"🔍 Debug: Category mapping failed for category_id {category_id}")
+        if len(category_data) > 0:
+            sample_category = category_data[0]
+            print(f"🔍 Sample category structure: {list(sample_category.keys())}")
+    
+    mapped_name = category_mapping.get(category_id, f"Category_{category_id}")
+    
+    # Log successful mappings for first few categories (debug)
+    if mapped_name != f"Category_{category_id}" and len(category_mapping) <= 5:
+        print(f"✅ Category mapping: {category_id} → '{mapped_name}'")
+    
+    return mapped_name
 
 def extract_lazada_product_variants(product_data, product_key, variant_key_counter):
     """
@@ -667,12 +706,12 @@ def add_missing_sku_fallback(product_df, variant_df, variant_key_counter):
     # Critical missing Lazada SKUs identified from analysis
     missing_skus = [
         {
-            'sku': '17089061731',
+            'sku': '17089061731', #LA COLLECTIONS COLLECTIONS SHANGRI-LA Hotel Waterbased Diffuser Scents/Linen Spray/ Room Spray
             'description': 'Missing high-impact Lazada product (affects 4,221 order items)',
             'estimated_price': 1850.0  # Based on analysis of similar products
         },
         {
-            'sku': '17167753965', 
+            'sku': '17167753965', #L.A. Collections Fresh Bamboo Waterbased Scent for  Humidifiers/Diffusers/Linen Spray
             'description': 'Missing high-impact Lazada product (affects 4,221 order items)',
             'estimated_price': 1850.0  # Based on analysis of similar products
         }

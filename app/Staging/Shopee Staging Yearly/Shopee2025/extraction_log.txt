@@ -1312,3 +1312,75 @@ Year: 2025
 [2025-11-13 05:31:37] API Call #410 | Type: order-details-c1-b5-sub1 | Method: GET | Path: /api/v2/order/get_order_detail
 [2025-11-13 05:31:38]   └─ Status: 200
 [2025-11-13 05:31:38]   └─ Success: Retrieved 28 orders
+
+================================================================================
+EXTRACTION SESSION START: 2025-11-13 20:04:49
+Year: 2025
+================================================================================
+
+[2025-11-13 20:04:49] API Call #1 | Type: product-list-offset-0 | Method: GET | Path: /api/v2/product/get_item_list
+[2025-11-13 20:04:49]   └─ Status: 403
+[2025-11-13 20:04:49]   └─ ERROR: {"error":"invalid_acceess_token","message":"Invalid access_token, please have a check.","request_id":"e3e3e7f34378b011f131d3dfe1366c00"}
+[2025-11-13 20:04:49] API Call #2 | Type: product-categories | Method: GET | Path: /api/v2/product/get_category
+[2025-11-13 20:04:49]   └─ Status: 403
+[2025-11-13 20:04:49]   └─ ERROR: {"error":"invalid_acceess_token","message":"Invalid access_token, please have a check.","request_id":"e3e3e7f34378b014559f37014be98b00"}
+[2025-11-13 20:04:51] API Call #3 | Type: product-categories | Method: GET | Path: /api/v2/product/get_category
+[2025-11-13 20:04:51]   └─ Status: 403
+[2025-11-13 20:04:51]   └─ ERROR: {"error":"invalid_acceess_token","message":"Invalid access_token, please have a check.","request_id":"e3e3e7f34378b035c918dc68238b4a00"}
+
+================================================================================
+EXTRACTION SESSION START: 2025-11-13 20:19:17
+Year: 2025
+================================================================================
+
+[2025-11-13 20:19:17] API Call #1 | Type: product-list-offset-0 | Method: GET | Path: /api/v2/product/get_item_list
+[2025-11-13 20:19:17]   └─ Status: 200
+[2025-11-13 20:19:17]   └─ Success: Data received
+[2025-11-13 20:19:18] API Call #2 | Type: product-details-batch-1 | Method: GET | Path: /api/v2/product/get_item_base_info
+[2025-11-13 20:19:19]   └─ Status: 200
+[2025-11-13 20:19:19]   └─ Success: Retrieved 48 items
+[2025-11-13 20:19:21] API Call #3 | Type: product-details-batch-1 | Method: GET | Path: /api/v2/product/get_item_base_info
+[2025-11-13 20:19:21]   └─ Status: 200
+[2025-11-13 20:19:21]   └─ Success: Retrieved 48 items
+[2025-11-13 20:19:23] API Call #4 | Type: product-categories | Method: GET | Path: /api/v2/product/get_category
+[2025-11-13 20:19:23]   └─ Status: 200
+[2025-11-13 20:19:23]   └─ Success: Data received
+[2025-11-13 20:19:25] API Call #5 | Type: product-model-26661421920 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:25]   └─ Status: 200
+[2025-11-13 20:19:25]   └─ Success: Data received
+[2025-11-13 20:19:27] API Call #6 | Type: product-model-40902294452 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:27]   └─ Status: 200
+[2025-11-13 20:19:27]   └─ Success: Data received
+[2025-11-13 20:19:29] API Call #7 | Type: product-model-21286352012 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:30]   └─ Status: 200
+[2025-11-13 20:19:30]   └─ Success: Data received
+[2025-11-13 20:19:32] API Call #8 | Type: product-model-18878439578 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:32]   └─ Status: 200
+[2025-11-13 20:19:32]   └─ Success: Data received
+[2025-11-13 20:19:34] API Call #9 | Type: product-model-25262822617 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:34]   └─ Status: 200
+[2025-11-13 20:19:34]   └─ Success: Data received
+[2025-11-13 20:19:36] API Call #10 | Type: product-model-7871666518 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:36]   └─ Status: 200
+[2025-11-13 20:19:36]   └─ Success: Data received
+[2025-11-13 20:19:38] API Call #11 | Type: product-model-40207388532 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:39]   └─ Status: 200
+[2025-11-13 20:19:39]   └─ Success: Data received
+[2025-11-13 20:19:41] API Call #12 | Type: product-model-6181752848 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:41]   └─ Status: 200
+[2025-11-13 20:19:41]   └─ Success: Data received
+[2025-11-13 20:19:43] API Call #13 | Type: product-model-29170344623 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:43]   └─ Status: 200
+[2025-11-13 20:19:43]   └─ Success: Data received
+[2025-11-13 20:19:45] API Call #14 | Type: product-model-24720910252 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:45]   └─ Status: 200
+[2025-11-13 20:19:45]   └─ Success: Data received
+[2025-11-13 20:19:47] API Call #15 | Type: product-model-3561704640 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:48]   └─ Status: 200
+[2025-11-13 20:19:48]   └─ Success: Data received
+[2025-11-13 20:19:50] API Call #16 | Type: product-model-11715006538 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:50]   └─ Status: 200
+[2025-11-13 20:19:50]   └─ Success: Data received
+[2025-11-13 20:19:52] API Call #17 | Type: product-model-5584672956 | Method: GET | Path: /api/v2/product/get_model_list
+[2025-11-13 20:19:52]   └─ Status: 200
+[2025-11-13 20:19:52]   └─ Success: Data received

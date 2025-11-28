@@ -229,10 +229,22 @@ def extract_customers_from_shopee_orders(orders_data):
         buyer_username = order.get('buyer_username')  # Note: it's buyer_username in orders, buyer_user_name in payment details
         
         if not buyer_username or pd.isna(buyer_username) or str(buyer_username).strip() == '':
+            # For privacy-deleted or missing usernames we keep a single 'Deleted User' placeholder.
+            # Per request, Deleted User should have total_orders = 0 and no dates (NaT). We must
+            # not count orders against this placeholder.
             platform_customer_id = "Deleted User"
+            # Ensure an entry exists with zero counts and NaT dates, but do NOT increment order_count
+            if platform_customer_id not in customer_stats:
+                customer_stats[platform_customer_id] = {
+                    'order_count': 0,
+                    'earliest_date': pd.NaT,
+                    'latest_date': pd.NaT
+                }
+            # Skip counting this order toward Deleted User
+            continue
         else:
             platform_customer_id = str(buyer_username).strip()  # Use as-is, no transformation
-        
+
         # Parse order date
         create_time = order.get('create_time', 0)
         if create_time:
@@ -242,7 +254,7 @@ def extract_customers_from_shopee_orders(orders_data):
                 order_date = date.today()
         else:
             order_date = date.today()
-        
+
         # Track customer statistics
         if platform_customer_id not in customer_stats:
             customer_stats[platform_customer_id] = {
@@ -250,7 +262,7 @@ def extract_customers_from_shopee_orders(orders_data):
                 'earliest_date': order_date,
                 'latest_date': order_date
             }
-        
+
         # Update statistics
         customer_stats[platform_customer_id]['order_count'] += 1
         if order_date < customer_stats[platform_customer_id]['earliest_date']:
@@ -261,8 +273,11 @@ def extract_customers_from_shopee_orders(orders_data):
     # Create customer records following DIM_CUSTOMER_COLUMNS exactly
     customers = []
     for customer_id, stats in customer_stats.items():
-        # Determine buyer segment
-        buyer_segment = "New Buyer" if stats['order_count'] == 1 else "Returning Buyer"
+        # Determine buyer segment - special case for Deleted User
+        if customer_id == "Deleted User":
+            buyer_segment = "Unknown"
+        else:
+            buyer_segment = "New Buyer" if stats['order_count'] == 1 else "Returning Buyer"
         
         customer_record = {
             'platform_customer_id': customer_id,

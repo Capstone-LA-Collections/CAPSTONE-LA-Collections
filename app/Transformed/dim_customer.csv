@@ -7612,7 +7612,7 @@ customer_key,platform_customer_id,buyer_segment,total_orders,customer_since,last
 7611.2,9xs_7edgkj,New Buyer,1,2025-01-20,2025-01-20,2
 7612.2,9xv00jhnbw,New Buyer,1,2024-02-04,2024-02-04,2
 7613.2,9y5qgpns5n,New Buyer,1,2025-02-25,2025-02-25,2
-7614.2,Deleted User,Returning Buyer,1190,2020-10-11,2025-06-27,2
+7614.2,Deleted User,Unknown,0,,,2
 7615.2,_0j6ex5oho,New Buyer,1,2021-12-19,2021-12-19,2
 7616.2,_150lime,Returning Buyer,2,2021-11-11,2022-09-10,2
 7617.2,_2smwgxk8i,New Buyer,1,2025-06-23,2025-06-23,2

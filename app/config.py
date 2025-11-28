@@ -706,10 +706,8 @@ COLUMN_DATA_TYPES = {
         'impressions': 'int'
     },
     'fact_sales_aggregate': {
-        'sales_summary_key': 'int',  # Serial/auto-increment handled at DB level
         'time_key': 'int',
         'platform_key': 'int',
-        'buyer_segment': 'str',
         'total_orders': 'int',
         'successful_orders': 'int',
         'cancelled_orders': 'int',

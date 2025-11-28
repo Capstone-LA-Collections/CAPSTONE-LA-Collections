@@ -1,0 +1,6043 @@
+[
+  {
+    "item_id": 26661421920,
+    "category_id": 101128,
+    "item_name": "L.A. Collections Pure Fragrance Oil for Humidifier/Diffuser with Dropper",
+    "item_sku": "",
+    "create_time": 1726449075,
+    "update_time": 1756383380,
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7rasb-m35wcf6mg1a3a6",
+        "ph-11134207-7rasd-m35va5d4pta328",
+        "ph-11134207-7rasm-m35wco7t85tnf9",
+        "ph-11134207-7r992-m083mzqqwqy6df"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasb-m35wcf6mg1a3a6",
+        "https://cf.shopee.ph/file/ph-11134207-7rasd-m35va5d4pta328",
+        "https://cf.shopee.ph/file/ph-11134207-7rasm-m35wco7t85tnf9",
+        "https://cf.shopee.ph/file/ph-11134207-7r992-m083mzqqwqy6df"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.26",
+    "dimension": {
+      "package_length": 3,
+      "package_width": 3,
+      "package_height": 3
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "video_info": [
+      {
+        "video_url": "https://cvf.shopee.ph/file/api/v4/11110107/mms/ph-11110107-6kfkp-m084dy56rls440.16000081726449934.mp4",
+        "thumbnail_url": "https://cf.shopee.ph/file/ph-11110107-7r98z-m084dzwq6yzadf",
+        "duration": 16
+      }
+    ],
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "OIL ONLY! DEVICE NOT INCLUDED\n\nTransform your space with L.A. Collections' Pure Oil Fragrance. This 15ml blend is designed for use in humidifiers and diffusers, offering a pure, captivating scent that enriches any environment. Crafted to provide a long-lasting, aromatic experience, it enhances relaxation and creates a refreshing atmosphere with just a few drops."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7rasb-m35wcf6mg1a3a6"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasb-m35wcf6mg1a3a6"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 40902294452,
+    "category_id": 101707,
+    "item_name": "Boobierang Breastfeeding Pillows",
+    "item_sku": "",
+    "create_time": 1748334898,
+    "update_time": 1756383372,
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ras8-ma9ghv0qx006d1"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ras8-ma9ghv0qx006d1"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.99",
+    "dimension": {
+      "package_length": 5,
+      "package_width": 10,
+      "package_height": 5
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 1170553,
+      "original_brand_name": "Bornboom"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Boobierang Breastfeeding Pillows\n\nSupport Where It Matters Most\n\nDesigned with real moms in mind, the Boobierang Breastfeeding Pillow is your go-to solution for easier, more comfortable nursing sessions. Perfect for moms experiencing breast sagging, Boobierang gently lifts and supports your breasts to help position nipples at the ideal height and angle for a better latch.\n\nNo more struggling to guide your baby or constantly adjusting your posture—this clever, crescent-shaped pillow cradles and elevates, giving babies easier access and improving feeding success. Lightweight, soft, and easy to use, it's a game-changer for breastfeeding comfort and confidence.\n\nOther features:\n- Tummy time support \n\nBoobierang—because every mom deserves support that fits.\n\n"
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7rasl-ma9gl92ogn7r46",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7rasl-ma9gl92ogn7r46"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7rasc-ma9gl92oi1s788",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7rasc-ma9gl92oi1s788"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7ras9-ma9gl92ojgcna5",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7ras9-ma9gl92ojgcna5"
+            }
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ras8-ma9ghv0qx006d1"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ras8-ma9ghv0qx006d1"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 21286352012,
+    "category_id": 101129,
+    "item_name": "Rattan Sticks for Reed Diffuser 5pcs",
+    "item_sku": "",
+    "create_time": 1700222695,
+    "update_time": 1759676943,
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r98w-lo6uvqa4atsqa4"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98w-lo6uvqa4atsqa4"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.2",
+    "dimension": {
+      "package_length": 1,
+      "package_width": 1,
+      "package_height": 9
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Rattan Sticks for Reed Diffuser. High Quality. Spare for reed diffusers of LA Collections.\n\nNOT FOR WATER BASED SCENTS!\nFOR OIL BASED DIFFUSERS ONLY! \n\nCheck out now"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r98w-lo6uvqa4atsqa4"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98w-lo6uvqa4atsqa4"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 43458733175,
+    "category_id": 101129,
+    "item_name": "Flame Ultrasonic Aroma Diffuser – 180ml Air Humidifier for Relaxing Scents",
+    "item_sku": "",
+    "create_time": 1752676207,
+    "update_time": 1756383371,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 690,
+        "current_price": 690
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0j-mc9cy1vegjkh10",
+        "ph-11134207-7ra0j-mc9cxexo0wlt98",
+        "ph-11134207-7ra0p-mc9cxnz4smjm84"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0j-mc9cy1vegjkh10",
+        "https://cf.shopee.ph/file/ph-11134207-7ra0j-mc9cxexo0wlt98",
+        "https://cf.shopee.ph/file/ph-11134207-7ra0p-mc9cxnz4smjm84"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.8",
+    "dimension": {
+      "package_length": 10,
+      "package_width": 20,
+      "package_height": 13
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "video_info": [
+      {
+        "video_url": "https://cvf.shopee.ph/file/api/v4/11110105/mms/ph-11110105-6kfko-mc9cxrq9avxe5b.16000081752675732.mp4",
+        "thumbnail_url": "https://cf.shopee.ph/file/ph-11110105-6kfko-mc9cxrq9avxe5b_cover",
+        "duration": 55
+      }
+    ],
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "LA Collections Flame-Inspired Ultrasonic Aroma Diffuser – 180ml Mist Humidifier\n\n\nProduct Reminders:\n\n-Maximum tank capacity is 180ml. Do not exceed the water level line to avoid weak misting or potential leakage.\n-Use the included Type-C 2A power cable. Other cables may affect misting if they don’t meet the 2A requirement.\n-Always use purified water with LA Collections water-based humidifier scents for optimal performance and longer diffuser life.\n-Light bubbling or hissing sounds are normal during operation. It’s part of the misting process.\n\n\n\n\nHow to Use:\n\n• Aromatherapy Function – Fill with water (do not exceed max line), add a few drops of LA Collections scent, then short-press the mist button to start. Press again to stop.\n• Light Function – Short-press the light button to activate the flame effect. Press again for auto color change, press again to hold one color, and press again to turn off.\n• Safety Auto Shut-Off – Automatically powers off when water runs out, thanks to a built-in protection sensor.\n\n\n• Whisper-quiet operation – ideal for bedrooms, offices, or meditation\n• Adjustable LED lights to match your space and mood\n• One-button control for simple use\n• Auto shut-off for safety and peace of mind\n• Designed to work seamlessly with LA Collections humidifier scents\n• Great for homes, offices, wellness spaces, and more\n\n\nProduct Specifications:\n\n• Tank Capacity: 180ml\n• Spray Output: 15–20ml/hr\n• Rated Power: ≤6.5W\n• Input: DC5.0V / 2A\n• Operating Current: ≤900mA\n• Mterials: ABS / PP / PCBA\n• Standards: GB4706.1-2005, GB4706.48-2009\n• Size: 17 x 7 x 10 cm (unit), 20 x 10 x 13 cm (packaging)\n• Weight: 290g (net), 400g (gross)\n• Colors Available: Black, White\n• Package Includes: 1x Diffuser, 1x Type-C Cable, 1x Manual\n\n\nPair it with our best-selling LA Collections humidifier scents and experience a full sensory upgrade in your space."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0j-mc9cy1vegjkh10"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0j-mc9cy1vegjkh10"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 18878439578,
+    "category_id": 101129,
+    "item_name": "(COD) PURE OIL REED DIFFUSERS by L.A. Collections",
+    "item_sku": "RD",
+    "create_time": 1681361962,
+    "update_time": 1756383439,
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7rasj-m35wihl4u7azf2",
+        "ph-11134207-7rasc-m35wblxx8j9733",
+        "ph-11134207-7rasc-m35wbw5aaxyzf6",
+        "ph-11134207-7qul9-lfj9yc17roxg83",
+        "ph-11134207-7quky-lfm0s58sfdwf01"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasj-m35wihl4u7azf2",
+        "https://cf.shopee.ph/file/ph-11134207-7rasc-m35wblxx8j9733",
+        "https://cf.shopee.ph/file/ph-11134207-7rasc-m35wbw5aaxyzf6",
+        "https://cf.shopee.ph/file/ph-11134207-7qul9-lfj9yc17roxg83",
+        "https://cf.shopee.ph/file/ph-11134207-7quky-lfm0s58sfdwf01"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.5",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 21
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "L.A. Collections Reed Diffuser\n\nCreate a relaxing and inviting atmosphere in any room with our beautiful reed diffusers, infused with your favorite scents to soothe your senses and elevate your space.\n\n\n Best used for Bedrooms, Living Rooms, Offices\nLong Lasting Scent Guaranteed!\nPure Oil\nPremium Quality\nComes with 3 Rattan Diffuser Sticks\nAvailable in 50 and 100mL bottles\nNext day ship out"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7rasj-m35wihl4u7azf2"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasj-m35wihl4u7azf2"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 25262822617,
+    "category_id": 101129,
+    "item_name": "1 GALLON Humidifier / Diffuser / Linen Spray Scent (4L)",
+    "item_sku": "",
+    "create_time": 1707389154,
+    "update_time": 1756383450,
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r992-lstsl3x42oz912",
+        "ph-11134207-7r98z-lrh8esuypib9dd"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r992-lstsl3x42oz912",
+        "https://cf.shopee.ph/file/ph-11134207-7r98z-lrh8esuypib9dd"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "4.5",
+    "dimension": {
+      "package_length": 20,
+      "package_width": 20,
+      "package_height": 32
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 385025418080573,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Same Scent Quality, Bigger Size!\nIdeal for Industrial and Office Use! \n\nIntroducing our new 1-gallon humidifier scent, now available due to popular demand! Elevate your space with refreshing fragrances designed to enhance your environment. Our specially curated scents are crafted to bring a sense of calm and freshness to any room. With a gallon-sized capacity, enjoy long-lasting aromatherapy benefits throughout your home or office. Experience the essence of relaxation with our new humidifier scent."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r992-lstsl3x42oz912"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r992-lstsl3x42oz912"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 8872137642,
+    "category_id": 101129,
+    "item_name": "(COD) 1L Melon Cucumber Humidifier Scent by LA Collections",
+    "description": "1 liter / 1000mL\n\nfruity and refreshing smell\n\n- for your humidifiers..\n- can also be used as linen and room spray.\n- has anti bacterial properties \n\nsame day ship out cut of 9am except weekends.\n",
+    "item_sku": "",
+    "create_time": 1624867422,
+    "update_time": 1756383456,
+    "attribute_list": [
+      {
+        "attribute_id": 100025,
+        "original_attribute_name": "Scent",
+        "attribute_value_list": [
+          {
+            "value_id": 0,
+            "original_value_name": "MELON",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": false
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 394
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "fd87bcffc60ec2824ccfeec29a7be00f",
+        "f7c03b899a5e43ff3f7e0f83d497ae96",
+        "0f6ab1b49dea070992086b454ee19a7d",
+        "97f2b54f540b41b4c9e651150d7bae76",
+        "93001d9693b4a5658bf410aec0898ce8"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/fd87bcffc60ec2824ccfeec29a7be00f",
+        "https://cf.shopee.ph/file/f7c03b899a5e43ff3f7e0f83d497ae96",
+        "https://cf.shopee.ph/file/0f6ab1b49dea070992086b454ee19a7d",
+        "https://cf.shopee.ph/file/97f2b54f540b41b4c9e651150d7bae76",
+        "https://cf.shopee.ph/file/93001d9693b4a5658bf410aec0898ce8"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.29",
+    "dimension": {
+      "package_length": 25,
+      "package_width": 9,
+      "package_height": 9
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 94
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 94,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "fd87bcffc60ec2824ccfeec29a7be00f"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/fd87bcffc60ec2824ccfeec29a7be00f"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 7871666518,
+    "category_id": 101128,
+    "item_name": "100 mL Hotel Scents Waterbased Air Freshner, Humidifier, Linen Spray",
+    "description": "Hotel Inspired Scents\n\nGood for Air freshner\nHumidifier\nLinen Spray\n\nPet and Kids Friendly\nMust Try Best seller\n",
+    "item_sku": "",
+    "create_time": 1609046743,
+    "update_time": 1704802192,
+    "image": {
+      "image_id_list": [
+        "d394164bc6aab3d2e2151f22310d8817",
+        "f1fde1ed198850577b4eeaea94c56906",
+        "32a378c9f6307eba55a68e0529783ba1",
+        "4f0bd3b4896b055e12cd6b8cae0a2ca1",
+        "123a2edecfdb6f26d1de106d55888032",
+        "7623cb4201a343e17a63f13093f3ef32",
+        "0e9e7881c5bf63f7e2b16a39d5839553"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/d394164bc6aab3d2e2151f22310d8817",
+        "https://cf.shopee.ph/file/f1fde1ed198850577b4eeaea94c56906",
+        "https://cf.shopee.ph/file/32a378c9f6307eba55a68e0529783ba1",
+        "https://cf.shopee.ph/file/4f0bd3b4896b055e12cd6b8cae0a2ca1",
+        "https://cf.shopee.ph/file/123a2edecfdb6f26d1de106d55888032",
+        "https://cf.shopee.ph/file/7623cb4201a343e17a63f13093f3ef32",
+        "https://cf.shopee.ph/file/0e9e7881c5bf63f7e2b16a39d5839553"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1",
+    "dimension": {
+      "package_length": 0,
+      "package_width": 0,
+      "package_height": 0
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 2
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "d394164bc6aab3d2e2151f22310d8817"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/d394164bc6aab3d2e2151f22310d8817"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 43915446422,
+    "category_id": 101129,
+    "item_name": "(NEW!) 1L HIGHLAND BREEZE Waterbased Humidifier / Diffuser / Linen Spray",
+    "item_sku": "",
+    "create_time": 1756362913,
+    "update_time": 1756383373,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-81ztm-mdy9k2kre5tv65"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-81ztm-mdy9k2kre5tv65"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.41",
+    "dimension": {
+      "package_length": 8,
+      "package_width": 8,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "(NEW!) 1L HIGHLAND BREEZE Water-Based Humidifier / Diffuser / Linen Spray\n\nBring the refreshing cool air of the highlands into your home. Highland Breeze is inspired by the City of Pines, capturing the crisp, clean, and uplifting scent that instantly relaxes and refreshes any space.\n\n✅ Water-based formula – safe for humidifiers & diffusers\n ✅ Can also be used as a linen spray for a lasting fresh scent\n ✅ Long-lasting fragrance, perfect for bedrooms, living rooms, or workspaces\n\nTransform your home into a serene mountain escape with every spray or mist. 🌲❄️\n\n\n"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 42
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 42,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-81ztm-mdy9k2kre5tv65"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-81ztm-mdy9k2kre5tv65"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 8857702981,
+    "category_id": 101127,
+    "item_name": "(COD) 1 Liter Peppermint Waterbased Humidifier Scent by L.A. Collections Christmas Scent",
+    "description": "Peppermint Waterbased Humidifier Scent\n✔ Humidifier/Diffuser Scent\n✔ Room Spray\n✔ Linen Spray ( BedSheets, Curtains , Pillows, Couches) \n✔ Car Interior Spray\n\nSHIPPING:\nSame day ship out(cut off at 6am)\nMetro Manila orders usually arrive a day after ship out (still depends kay courier)\nOrders that were confirmed on Saturday and Sunday will be shipped out on Monday. 😊\n\nCHOOSE J&T FOR FASTER SHIPPING\n\nPACKAGING:\nBubble wrap + Custom box\nAll bottles are individually sealed to ensure no leakage. \n\nFeel free to ask me questions. Will respond as soon as I can. 😊\n\n1000 ML\nLegit",
+    "item_sku": "",
+    "create_time": 1621640360,
+    "update_time": 1762186346,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4031,
+            "original_value_name": "Others",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "f85766831447a3bc4fb3e11dfa4273cd",
+        "a2648a773023635fdd3e08a49153d649",
+        "40a2d317c219667e783874a9b6291bb5",
+        "9199325720e9f390681805b8eef63b1b",
+        "a912c494b173125ae0a83f60c8245682",
+        "2cfd4aa1f648a7dff79669caef852405",
+        "ed86a116243ed6964ac695ee38c42f9f",
+        "b2ca880471820d78199fc2509e551deb"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/f85766831447a3bc4fb3e11dfa4273cd",
+        "https://cf.shopee.ph/file/a2648a773023635fdd3e08a49153d649",
+        "https://cf.shopee.ph/file/40a2d317c219667e783874a9b6291bb5",
+        "https://cf.shopee.ph/file/9199325720e9f390681805b8eef63b1b",
+        "https://cf.shopee.ph/file/a912c494b173125ae0a83f60c8245682",
+        "https://cf.shopee.ph/file/2cfd4aa1f648a7dff79669caef852405",
+        "https://cf.shopee.ph/file/ed86a116243ed6964ac695ee38c42f9f",
+        "https://cf.shopee.ph/file/b2ca880471820d78199fc2509e551deb"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.25",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 236
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 236,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "f85766831447a3bc4fb3e11dfa4273cd"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/f85766831447a3bc4fb3e11dfa4273cd"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 24070911495,
+    "category_id": 101211,
+    "item_name": "Fluffy Essentials Kitchen Towel 2 Ply 2 Rolls 80 Pulls 160 Sheets",
+    "item_sku": "",
+    "create_time": 1711413517,
+    "update_time": 1756383382,
+    "attribute_list": [
+      {
+        "attribute_id": 100837,
+        "original_attribute_name": "Tissue Paper Type",
+        "attribute_value_list": [
+          {
+            "value_id": 4326,
+            "original_value_name": "Paper Towel",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": false
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 180,
+        "current_price": 180
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r98o-ltbq0305j77o2b",
+        "ph-11134207-7r98w-ltbq0305kls44a"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98o-ltbq0305j77o2b",
+        "https://cf.shopee.ph/file/ph-11134207-7r98w-ltbq0305kls44a"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.99",
+    "dimension": {
+      "package_length": 23,
+      "package_width": 8,
+      "package_height": 22
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2241531,
+      "original_brand_name": "FLUFFY"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "-\t100% Virgin Pulp\n-\t2 Ply\n-\t2 Rolls per pack\n-\t80 Pulls\n-\tBiodegradable \n-\t160 Sheets\n-\tEmboss Design\n-\tTightly Rolled\n-\tHigh-Grade Premium Quality\n-\tUnscented and Hypo-allergenic\n-       Package size : 23x22x8 cm\n\nCommercial and Home use!\n\nON HAND - QUICK DELIVERY \n"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r98o-ltbq0305j77o2b"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98o-ltbq0305j77o2b"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 40207388532,
+    "category_id": 101128,
+    "item_name": "100mL Pure Oil Dropper 100% Fragrance Oil Essential Oil",
+    "item_sku": "",
+    "create_time": 1751679720,
+    "update_time": 1756383374,
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0r-mbswf6qff64wd7"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0r-mbswf6qff64wd7"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.88",
+    "dimension": {
+      "package_length": 8,
+      "package_width": 8,
+      "package_height": 8
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": ":\n\n\n💧 100ml Pure Fragrance Oil Dropper | Reed Diffuser Refill 💧\n\n🧴 100% Pure Fragrance Oil – No water, no fillers!\n Perfect for refilling reed diffusers and keeping your space smelling fresh and relaxing all day.\n\n✅ 100ml concentrated oil\n ✅ Long-lasting, premium scent\n ✅ Easy-pour dropper bottle\n ✅ Works with all reed diffusers\n ✅ Ideal for home, office, or spa use\n\n✨ A little goes a long way!\n Refill your diffuser and enjoy a consistent, long-lasting aroma.\n\n📦 Ready to ship nationwide!"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0r-mbswf6qff64wd7"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0r-mbswf6qff64wd7"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 15949821605,
+    "category_id": 101129,
+    "item_name": "(NEW) 1 Liter Green Tea by Elizabeth A Humidifier/Diffuser Scent",
+    "description": "Green Tea Scent inspired by Elizab3th Ard3n\n\n- For your Diffusers, Humidifiers\n- Can also be used as Linen Spray.\n\nchoose J&T for faster shipping.",
+    "item_sku": "",
+    "create_time": 1644236572,
+    "update_time": 1756383442,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 394
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0h-mcpvrg2ruy4g3a",
+        "40a6f659f3fa3b059fd8a64d379d33e8"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0h-mcpvrg2ruy4g3a",
+        "https://cf.shopee.ph/file/40a6f659f3fa3b059fd8a64d379d33e8"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.35",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 25
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 25,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0h-mcpvrg2ruy4g3a"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0h-mcpvrg2ruy4g3a"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 25851471279,
+    "category_id": 101814,
+    "item_name": "5KG Pure Shield Powder Detergent",
+    "item_sku": "",
+    "create_time": 1700531569,
+    "update_time": 1756383377,
+    "attribute_list": [
+      {
+        "attribute_id": 101029,
+        "original_attribute_name": "Pack Size",
+        "attribute_value_list": [
+          {
+            "value_id": 0,
+            "original_value_name": "5",
+            "value_unit": "KG"
+          }
+        ],
+        "is_mandatory": false
+      },
+      {
+        "attribute_id": 100025,
+        "original_attribute_name": "Scent",
+        "attribute_value_list": [
+          {
+            "value_id": 0,
+            "original_value_name": "Linen Fresh",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": false
+      },
+      {
+        "attribute_id": 100036,
+        "original_attribute_name": "Formulation",
+        "attribute_value_list": [
+          {
+            "value_id": 765,
+            "original_value_name": "Powder",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": false
+      },
+      {
+        "attribute_id": 100999,
+        "original_attribute_name": "Quantity",
+        "attribute_value_list": [
+          {
+            "value_id": 0,
+            "original_value_name": "1",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": false
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 450,
+        "current_price": 450
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r98s-lobycv2d3o5nae",
+        "ph-11134207-7r98o-lobycv2d52q332",
+        "ph-11134207-7r98o-lobycv2d6hajfe",
+        "ph-11134207-7r98p-lobycv2d7vuz37"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98s-lobycv2d3o5nae",
+        "https://cf.shopee.ph/file/ph-11134207-7r98o-lobycv2d52q332",
+        "https://cf.shopee.ph/file/ph-11134207-7r98o-lobycv2d6hajfe",
+        "https://cf.shopee.ph/file/ph-11134207-7r98p-lobycv2d7vuz37"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "5",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 12
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Pure Shield Powder\nDetergent effectively emoves impurities and lirt from your clothes,eaving them looking and\nFeeling clean and refreshed. This detergent nn Jets rid of stubborn stains, but also revitalies the Colors of your garments, making them look vibra and new. Infused with the natural extract, Pure Shield Powder Detergent provides\nLong-lasting freshness, ensuring your wardrobe smells pleasant all day long. Trust Pure Shield Powder Detergent to give your clothes the care and attention they deserve.\n\nINGREDIENTS: Linear Alkyl Benzene Sulphonate zeolite, SodiumSilicate Tripolyphosphate,'thylenediaminetetraacetic acid, Sodium Carbone Alkaline Protease, Brightener, Fragrance"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r98s-lobycv2d3o5nae"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98s-lobycv2d3o5nae"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 9274362526,
+    "category_id": 101128,
+    "item_name": "1L Ocean Breeze Waterbased Essential Oil for Humidifiers",
+    "description": "1L Ocean Breeze Waterbased Essential Oil for Humidifiers\n\nPerfect for:\n- Humidifiers\n- Linen Spray\n- Room spray\n- Air freshener\n\n",
+    "item_sku": "",
+    "create_time": 1625413887,
+    "update_time": 1704802189,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 350,
+        "current_price": 350
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ec618dd732f8473fad59571a61803eda"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ec618dd732f8473fad59571a61803eda"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1",
+    "dimension": {
+      "package_length": 0,
+      "package_width": 0,
+      "package_height": 0
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 2
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ec618dd732f8473fad59571a61803eda"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ec618dd732f8473fad59571a61803eda"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 6181752848,
+    "category_id": 101418,
+    "item_name": "10 mL Hanging Diffusers",
+    "item_sku": "",
+    "create_time": 1615619167,
+    "update_time": 1756383753,
+    "attribute_list": [
+      {
+        "attribute_id": 101227,
+        "original_attribute_name": "Compatible Car Brands",
+        "attribute_value_list": [
+          {
+            "value_id": 9138,
+            "original_value_name": "Universal",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7rasb-m35w934k4t8h46",
+        "ph-11134207-7rask-m35w9dqwlam919",
+        "ph-11134207-7rasm-m35w9nccjsji2d",
+        "ph-11134207-7rasc-m35w9zuo8sou18",
+        "79615f6beed28f501e356b023e11f900",
+        "236c0ac43b6a0d42a593e58516f949db",
+        "b2b09a2e2147a9cf9b6f77df958ab984",
+        "sg-11134201-22110-bfjhybkwzqjvfb"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasb-m35w934k4t8h46",
+        "https://cf.shopee.ph/file/ph-11134207-7rask-m35w9dqwlam919",
+        "https://cf.shopee.ph/file/ph-11134207-7rasm-m35w9nccjsji2d",
+        "https://cf.shopee.ph/file/ph-11134207-7rasc-m35w9zuo8sou18",
+        "https://cf.shopee.ph/file/79615f6beed28f501e356b023e11f900",
+        "https://cf.shopee.ph/file/236c0ac43b6a0d42a593e58516f949db",
+        "https://cf.shopee.ph/file/b2b09a2e2147a9cf9b6f77df958ab984",
+        "https://cf.shopee.ph/file/sg-11134201-22110-bfjhybkwzqjvfb"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.3",
+    "dimension": {
+      "package_length": 3,
+      "package_width": 3,
+      "package_height": 3
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Transform your daily commute into a spa-like experience with our hanging diffuser for cars. Infuse your vehicle with your favorite aromatherapy scents, promoting relaxation and reducing stress while on the go. Enjoy the benefits of essential oils wherever you go with our convenient and stylish car diffusers.\n\nSame scents as waterbased scents. \n10mL Glass Bottle\n\nGood for 1 month\n\nSafe for Kids 👶\nSafe for Pets 🐾\nCan also be used for Homes and Offices \nSealed. Guaranteed no spill during shipment.\n\nSame day / Next day ship out! "
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7rasb-m35w934k4t8h46"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasb-m35w934k4t8h46"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 10126443491,
+    "category_id": 101129,
+    "item_name": "1Liter Waterbased Essential Oil - Cotton Blossom (Diffuser/Humidifier/Revitalizer)",
+    "description": "1 liter Waterbased Essential Oil\nCotton Blossom Scent\n\nSmell is powdery and refreshing.\n\nUses:\n- Humidifier\n- Diffuser\n- Revitalizer \n- Linen Spray\n- Room Spray\n\nFeel free to message anytime 😊",
+    "item_sku": "",
+    "create_time": 1628763097,
+    "update_time": 1756383423,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 385,
+        "current_price": 385
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7rasi-m7k19gehv13pb9"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasi-m7k19gehv13pb9"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.32",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 121
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 121,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7rasi-m7k19gehv13pb9"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasi-m7k19gehv13pb9"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 29170344623,
+    "category_id": 101127,
+    "item_name": "ROOM AND LINEN SPRAY by L.A. Collections",
+    "item_sku": "",
+    "create_time": 1733903450,
+    "update_time": 1757723457,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4089,
+            "original_value_name": "Spray",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7rasa-m7k1lp3cxdo2b8",
+        "ph-11134207-7rase-m6e45r60a5tr6c",
+        "ph-11134207-7rasd-m4bfxr96n9q1c4",
+        "ph-11134207-7rase-m3n8kjmc4ihr7f",
+        "ph-11134207-7rasc-m3n8khbxh3trae"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasa-m7k1lp3cxdo2b8",
+        "https://cf.shopee.ph/file/ph-11134207-7rase-m6e45r60a5tr6c",
+        "https://cf.shopee.ph/file/ph-11134207-7rasd-m4bfxr96n9q1c4",
+        "https://cf.shopee.ph/file/ph-11134207-7rase-m3n8kjmc4ihr7f",
+        "https://cf.shopee.ph/file/ph-11134207-7rasc-m3n8khbxh3trae"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.65",
+    "dimension": {
+      "package_length": 6,
+      "package_width": 6,
+      "package_height": 23
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Bring a burst of freshness to your linens with our Linen Spray. Crafted with natural botanicals, this spray infuses your sheets, towels, and clothes with a crisp, clean scent, creating a spa-like atmosphere in your home. Perfect for daily use to revitalize your space and promote relaxation."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7rasa-m7k1lp3cxdo2b8"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasa-m7k1lp3cxdo2b8"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 14087729456,
+    "category_id": 101129,
+    "item_name": "7LED 500mL Ultrasonic Diffuser for Essential Oils/ Waterbased Scent with Remote by L.A. Collections",
+    "item_sku": "",
+    "create_time": 1655263319,
+    "update_time": 1756383386,
+    "attribute_list": [
+      {
+        "attribute_id": 100942,
+        "original_attribute_name": "Dimension (L x W x H)",
+        "attribute_value_list": [
+          {
+            "value_id": 0,
+            "original_value_name": "10x10x10",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": false
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 649,
+        "current_price": 649
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0k-mc9d9rehln2p3f",
+        "ph-11134207-7ra0n-mc9cxgv17eaq57",
+        "ph-11134207-7ra0t-mc9cxu17xhcy72",
+        "d17ab2f31915a0713e48589ca94805dc"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0k-mc9d9rehln2p3f",
+        "https://cf.shopee.ph/file/ph-11134207-7ra0n-mc9cxgv17eaq57",
+        "https://cf.shopee.ph/file/ph-11134207-7ra0t-mc9cxu17xhcy72",
+        "https://cf.shopee.ph/file/d17ab2f31915a0713e48589ca94805dc"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "2",
+    "dimension": {
+      "package_length": 7,
+      "package_width": 7,
+      "package_height": 7
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "video_info": [
+      {
+        "video_url": "https://cvf.shopee.ph/file/api/v4/11110105/mms/ph-11110105-6kfkr-mc9dv62fxxyaf5.16000081752677291.mp4",
+        "thumbnail_url": "https://cf.shopee.ph/file/ph-11110105-6kfkr-mc9dv62fxxyaf5_cover",
+        "duration": 28
+      }
+    ],
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "-500mL Capacity\n-Perfect for L.A. Collections Waterbased and Pure Oil Scents\n-No Cotton Filters/Cotton Sticks needed\n-Auto Shut Off\n- 7 LED Colors"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 1
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 1,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0k-mc9d9rehln2p3f"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0k-mc9d9rehln2p3f"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 6772995515,
+    "category_id": 101127,
+    "item_name": "(COD) 1L OKADA Waterbased Humidifier Scents",
+    "item_sku": "",
+    "create_time": 1609689445,
+    "update_time": 1756383471,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4031,
+            "original_value_name": "Others",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ebb25395c856a34a1370b821f44afa8c",
+        "fd9edac239da424431b94581442354f7",
+        "b1608d09faea7d63b9858829e388e743",
+        "eb2dbf9d4245ca7155b53b44f99877a3",
+        "4b96cbb69b99f0ed92e425e37aad5333"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ebb25395c856a34a1370b821f44afa8c",
+        "https://cf.shopee.ph/file/fd9edac239da424431b94581442354f7",
+        "https://cf.shopee.ph/file/b1608d09faea7d63b9858829e388e743",
+        "https://cf.shopee.ph/file/eb2dbf9d4245ca7155b53b44f99877a3",
+        "https://cf.shopee.ph/file/4b96cbb69b99f0ed92e425e37aad5333"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.23",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "wholesales": [
+      {
+        "min_count": 5,
+        "max_count": 10,
+        "unit_price": 330
+      },
+      {
+        "min_count": 11,
+        "max_count": 20,
+        "unit_price": 300
+      }
+    ],
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "video_info": [
+      {
+        "video_url": "https://cvf.shopee.ph/file/api/v4/11110107/mms/ph-11110107-6kfkq-mdfv6o5pmmp644.16000091755248859.mp4",
+        "thumbnail_url": "https://cf.shopee.ph/file/ph-11110107-6kfkq-mdfv6o5pmmp644_cover",
+        "duration": 57
+      }
+    ],
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Waterbased Premium Hotel Scents - OKADA 1000mL\n\nCan also be used as \n- Linen Spray\n- Room Spray\n- Car Spray\n- Air Freshner \n"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 241
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 241,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ebb25395c856a34a1370b821f44afa8c"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ebb25395c856a34a1370b821f44afa8c"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 13808348767,
+    "category_id": 101127,
+    "item_name": "1 Liter Marine Squash Waterbased Essential Oil for Humidifiers/ Linen Spray",
+    "description": "1 liter/ 1000mL\nMarine Squash Waterbased Essential Oil\n\nFor:\n- Humidifiers\n- Diffusers\n- Revitalizer \n- Linen Spray\n- Room Spray\n- Air Freshner\n- Car Carpet Spray\n- Helmet Deodorizer \n\n",
+    "item_sku": "",
+    "create_time": 1631434731,
+    "update_time": 1757038404,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4031,
+            "original_value_name": "Others",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 365,
+        "current_price": 365
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "cab280a48b38aa5f4ac7c95aed94cfaa",
+        "9ec9d026f140ab8dacb959e3b0b02861"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/cab280a48b38aa5f4ac7c95aed94cfaa",
+        "https://cf.shopee.ph/file/9ec9d026f140ab8dacb959e3b0b02861"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.45",
+    "dimension": {
+      "package_length": 25,
+      "package_width": 9,
+      "package_height": 9
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 341
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 341,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "cab280a48b38aa5f4ac7c95aed94cfaa"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/cab280a48b38aa5f4ac7c95aed94cfaa"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 24720910252,
+    "category_id": 101211,
+    "item_name": "Fluffy Fragrance-Free Wet Wipes 60's Pack of 3 (180 Sheets Total)",
+    "item_sku": "",
+    "create_time": 1711412690,
+    "update_time": 1756383383,
+    "attribute_list": [
+      {
+        "attribute_id": 100837,
+        "original_attribute_name": "Tissue Paper Type",
+        "attribute_value_list": [
+          {
+            "value_id": 4342,
+            "original_value_name": "Tissue",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": false
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r98v-ltbp9h5f9wlg76",
+        "ph-11134207-7r991-ltbp9h5fbb5we8",
+        "ph-11134207-7r98p-ltbp9h5fcpqcd1"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98v-ltbp9h5f9wlg76",
+        "https://cf.shopee.ph/file/ph-11134207-7r991-ltbp9h5fbb5we8",
+        "https://cf.shopee.ph/file/ph-11134207-7r98p-ltbp9h5fcpqcd1"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.75",
+    "dimension": {
+      "package_length": 16,
+      "package_width": 10,
+      "package_height": 18
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "video_info": [
+      {
+        "video_url": "https://cvf.shopee.ph/file/api/v4/11110107/mms/ph-11110107-6ke15-luvuqv8xj8ln97.16000081714811107.mp4",
+        "thumbnail_url": "https://cf.shopee.ph/file/ph-11110107-7r98t-luvuqwsp9z88f1",
+        "duration": 21
+      }
+    ],
+    "brand": {
+      "brand_id": 2241531,
+      "original_brand_name": "FLUFFY"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Fluffy Wet Wipes 60 Sheets \n\nOur wet wipes are made from natural, biodegradable materials that are gentle on the skin and the environment. They come in a convenient, portable package and are perfect for quick cleanups on the go. Whether you're at the gym, out for a run, or traveling, Fluffy Wet Wipes will leave you feeling refreshed and clean.\n\n- Sheets per pack: 60 sheets  \n- Total Sheets per Bundle: 180 sheets\n- Fragrance: Fragrance-free  \n- Paraben: Paraben-free  \n- GSM: 50 GSM  \n- Biodegradable: Yes  \n- Certification: FSC certified  \n- Hypoallergenic: Yes  \n- Packaging: 3-in-1 packaging (convenient and compact)  \n\nCOD AVAILABLE - ON HAND - FAST DELIVERY"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r98v-ltbp9h5f9wlg76"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98v-ltbp9h5f9wlg76"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 3561704640,
+    "category_id": 101127,
+    "item_name": "(COD) 1L ShangriLa Hotels Water Based Humidifier & Diffuser Scent / Room and Linen Spray",
+    "item_sku": "",
+    "create_time": 1604738136,
+    "update_time": 1756383401,
+    "attribute_list": [
+      {
+        "attribute_id": 100248,
+        "original_attribute_name": "Volume",
+        "attribute_value_list": [
+          {
+            "value_id": 0,
+            "original_value_name": "1000",
+            "value_unit": "ml"
+          }
+        ],
+        "is_mandatory": false
+      },
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4031,
+            "original_value_name": "Others",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "f6668481d0583568ab166f0135d7dff8",
+        "d6b8cfc32ade5b36cac1bd0e203a47e5",
+        "588464dd625bf9bdfa88788b35b59e0f",
+        "d11a7a0557751625025ba78f624360e8",
+        "03fc11a6699c8984d7bd64c9c17b0bca",
+        "b2ab13d8f82c24b7d7efc98f014951b8",
+        "29f971272302d73dcf2fd925f9815644",
+        "62d4161f3a077e027f81a91c80448ae7",
+        "4e3eaea3661c4d78c1ab6ce91f8fca33"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/f6668481d0583568ab166f0135d7dff8",
+        "https://cf.shopee.ph/file/d6b8cfc32ade5b36cac1bd0e203a47e5",
+        "https://cf.shopee.ph/file/588464dd625bf9bdfa88788b35b59e0f",
+        "https://cf.shopee.ph/file/d11a7a0557751625025ba78f624360e8",
+        "https://cf.shopee.ph/file/03fc11a6699c8984d7bd64c9c17b0bca",
+        "https://cf.shopee.ph/file/b2ab13d8f82c24b7d7efc98f014951b8",
+        "https://cf.shopee.ph/file/29f971272302d73dcf2fd925f9815644",
+        "https://cf.shopee.ph/file/62d4161f3a077e027f81a91c80448ae7",
+        "https://cf.shopee.ph/file/4e3eaea3661c4d78c1ab6ce91f8fca33"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.2",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 24
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "video_info": [
+      {
+        "video_url": "https://cvf.shopee.ph/file/9ac7a1cf02785164d608d224d78a8648",
+        "thumbnail_url": "https://cf.shopee.ph/file/5a058af101c1b5a2adf432012ebc24d7",
+        "duration": 11
+      }
+    ],
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Shangri - La Hotel Scents Water Based\n✔ Humidifier/Diffuser Scent (mix with water)\n✔ Room Spray\n✔ Linen Spray ( BedSheets, Curtains , Pillows, Couches) \n✔ Car Interior Spray\n\nTransform your home into a luxurious oasis with our Shangrila humidifier scent, a harmonious blend of soothing aromas that will relax your mind and rejuvenate your soul, all while adding moisture to the air.\n\nSHIPPING:\nSame day ship out(cut off at 6am)\nMetro Manila orders usually arrive a day after ship out (still depends kay courier)\nOrders that were confirmed on Saturday and Sunday will be shipped out on Monday. 😊\n\nCHOOSE J&T FOR FASTER SHIPPING\n\nPACKAGING:\nBubble wrap + Custom box\nAll bottles are individually sealed to ensure no leakage. \nIF IT LEAKS, ITS ABSOLUTELY FREE! \nJust provide us an unboxing video. 👍\n\nFeel free to ask me questions. Will respond as soon as I can. 😊\n1000 ML\nLegit "
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7quky-lfmp7edtw1en0b",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7quky-lfmp7edtw1en0b"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul1-lfmp7ix98vtrbe",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul1-lfmp7ix98vtrbe"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul4-lfmpidktkk67d8",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul4-lfmpidktkk67d8"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qukz-lfmpidezt3hwfe",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qukz-lfmpidezt3hwfe"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul8-lfmpidhrp1bo56",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul8-lfmpidhrp1bo56"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qukx-lfmpihg3wqno51",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qukx-lfmpihg3wqno51"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qula-lfmpilbeabcka7",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qula-lfmpilbeabcka7"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul4-lfmpile64u8v1c",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul4-lfmpile64u8v1c"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul6-lfmpiphi81ys7c",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul6-lfmpiphi81ys7c"
+            }
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "f6668481d0583568ab166f0135d7dff8"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/f6668481d0583568ab166f0135d7dff8"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 8074718541,
+    "category_id": 101128,
+    "item_name": "(COD) 1L Conrad Hotel Waterbased Essential Oil for Humidifiers",
+    "description": "(COD) 1L Conrad Hotel Waterbased Essential Oil for Humidifiers\n\n- Can also be used as:\nLinen Spray, \nRoom Spray\nand Humidifier Scent\n\n\n- Safe for pets and kids 🐈🐕👪\n- All bottles are sealed and protected with bubblewrap and corrugated box.\n\nShip out within 24 hours guaranteed.\n\n\n\n",
+    "item_sku": "",
+    "create_time": 1625497339,
+    "update_time": 1756383398,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "3d7b7e0f7ee3d9d4fc44c689eccfb564",
+        "cd1e314a7ba71eb9d46f5b1fcbbadf92",
+        "405eb1421ec30bba703544aee7012f9b",
+        "aff4798acf868cbf8b17041d142b7d9c"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/3d7b7e0f7ee3d9d4fc44c689eccfb564",
+        "https://cf.shopee.ph/file/cd1e314a7ba71eb9d46f5b1fcbbadf92",
+        "https://cf.shopee.ph/file/405eb1421ec30bba703544aee7012f9b",
+        "https://cf.shopee.ph/file/aff4798acf868cbf8b17041d142b7d9c"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.26",
+    "dimension": {
+      "package_length": 25,
+      "package_width": 9,
+      "package_height": 9
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 140
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 140,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "3d7b7e0f7ee3d9d4fc44c689eccfb564"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/3d7b7e0f7ee3d9d4fc44c689eccfb564"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 22978519620,
+    "category_id": 101127,
+    "item_name": "(NEW!!) 1L Green Tea MATCHA Scent Waterbased Humidifier/Diffuser/ Linen Spray",
+    "item_sku": "",
+    "create_time": 1693411657,
+    "update_time": 1756383384,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4031,
+            "original_value_name": "Others",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0r-mcpvrg2rs4zk59",
+        "ph-11134207-7r98o-ll2c9v6zb6lj0d"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0r-mcpvrg2rs4zk59",
+        "https://cf.shopee.ph/file/ph-11134207-7r98o-ll2c9v6zb6lj0d"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.35",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 12
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Capture the soothing essence of Matcha with our specially crafted scent for your diffuser, humidifier, and linen spray. Infused with notes of earthy green tea, a touch of sweetness, and a hint of herbal freshness, this fragrance transports you to a serene Japanese tea garden. Immerse your space in tranquility and rejuvenation as the gentle aroma of Matcha fills the air, promoting relaxation and a sense of calm. Whether you're unwinding after a long day or seeking a moment of mindfulness, our Matcha scent brings a touch of nature's serenity to your surroundings."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 47
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 47,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0r-mcpvrg2rs4zk59"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0r-mcpvrg2rs4zk59"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 28604224516,
+    "category_id": 101127,
+    "item_name": "(INTRO PRICE) 1 Liter NECTARINE Waterbased Humidifier Scent by L.A. Collections",
+    "item_sku": "",
+    "create_time": 1719821867,
+    "update_time": 1756383375,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4031,
+            "original_value_name": "Others",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 380,
+        "current_price": 380
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0g-mcpvrg2rpbuobb",
+        "ph-11134207-7r98y-lx6mf8mtraldb1"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0g-mcpvrg2rpbuobb",
+        "https://cf.shopee.ph/file/ph-11134207-7r98y-lx6mf8mtraldb1"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.38",
+    "dimension": {
+      "package_length": 10,
+      "package_width": 10,
+      "package_height": 24
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "The LA Collections Nectarine Scent is a versatile product designed to enhance your living spaces with its delightful fragrance. Here’s a detailed product description for its use in humidifiers, diffusers, and as a linen spray:\n\nHumidifier:\nInfuse your home with the fresh and uplifting aroma of nectarines using the LA Collections Nectarine Scent in your humidifier. Perfect for dry climates or simply to add a pleasant scent to the air, this water-based formula disperses a fruity fragrance that revitalizes your surroundings.\n\nLinen Spray:\nSpritz the LA Collections Nectarine Scent onto linens, curtains, or upholstery to instantly refresh and add a touch of fruity fragrance. This linen spray not only revitalizes fabrics but also leaves a pleasant aroma that enhances the cleanliness and ambiance of your home."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 18
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 18,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0g-mcpvrg2rpbuobb"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0g-mcpvrg2rpbuobb"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 41565317225,
+    "category_id": 102572,
+    "item_name": "(NEW) 1L PENINSULA Waterbased Hotel Scent for Humidifers/ Diffusers / Linen Spray",
+    "item_sku": "",
+    "create_time": 1756297121,
+    "update_time": 1756383373,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-81zti-mdx6eaea9c79dc",
+        "ph-11134207-81ztn-mdx6zlojndog38"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-81zti-mdx6eaea9c79dc",
+        "https://cf.shopee.ph/file/ph-11134207-81ztn-mdx6zlojndog38"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.39",
+    "dimension": {
+      "package_length": 8,
+      "package_width": 8,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "1L Peninsula Water-Based Hotel Scent\n\n\nImmerse yourself in the refined elegance of the Peninsula-inspired signature fragrance. Crafted with a sophisticated water-based formula, this scent evokes the timeless luxury and serene ambiance of a world-class hotel.\n\nDesigned for use in humidifiers, diffusers, and linen sprays, it envelops your space with a delicate yet long-lasting aroma that lingers with quiet sophistication. Each breath carries notes of crisp freshness and understated warmth, creating an atmosphere of calm, comfort, and exclusivity.\n\n✨ Highlights:\n-Exquisite hotel-inspired fragrance, reminiscent of the Peninsula’s serene luxury\n-Water-based composition for a clean, safe, and versatile application\n-Suitable for humidifiers, diffusers, and fine mist linen sprays\n-Perfect for enhancing living rooms, bedrooms, lounges, and private retreats\n-1L presentation for extended indulgence\n-Elevate your surroundings with a scent that speaks of refinement, tranquility, and timeless hospitality—a fragrance that turns every moment into an indulgent escape."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 41
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 41,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-81zti-mdx6eaea9c79dc"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-81zti-mdx6eaea9c79dc"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 11130461258,
+    "category_id": 101128,
+    "item_name": "(NEW!!) 1L Grapefruit Waterbased Essential Oil for Humidifiers/Diffusers/Revitalizers",
+    "description": "1L / 1 Liter / 1000mL\n\nRefreshing and Fruity Smell\nSmells like Welch Grape Juice\n\nGood for:\nHumidifiers\nDiffusers\nRevitalizers\nLinen Spray and\nRoom Spray\n\nFeel free to ask questions 24/7, I'll answer as soon as I can. \n\nThanks! \n",
+    "item_sku": "",
+    "create_time": 1629166160,
+    "update_time": 1756383392,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 350,
+        "current_price": 350
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "a32efca40c1ed49853e721da95d7a8e7"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/a32efca40c1ed49853e721da95d7a8e7"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.1",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 18
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "a32efca40c1ed49853e721da95d7a8e7"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/a32efca40c1ed49853e721da95d7a8e7"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 8106980080,
+    "category_id": 101127,
+    "item_name": "(COD) Fresh Bamboo Waterbased Humidifier Scents by LA Collections 1Liter",
+    "item_sku": "",
+    "create_time": 1609690138,
+    "update_time": 1756383397,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4031,
+            "original_value_name": "Others",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 394
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "722bf26e5875d9dda44d3ee61f4f164a",
+        "cb114395ed4b361f00a8ed3b37a59b1b",
+        "382a2ebfab0bd81b0ae53a9f17e705d0",
+        "8e8dc593ca650d8754cb7e0941688957",
+        "e8e99b670409ec63d4dc911c41811454",
+        "6cdd7eab888fde5d85d4c9162b4b06cc",
+        "0262d4be1132df636c5e62904e56fcd7",
+        "126bc1cf6761d34c1568918c8093336e",
+        "297a22f24c66741710a01ebb0dd6e65e"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/722bf26e5875d9dda44d3ee61f4f164a",
+        "https://cf.shopee.ph/file/cb114395ed4b361f00a8ed3b37a59b1b",
+        "https://cf.shopee.ph/file/382a2ebfab0bd81b0ae53a9f17e705d0",
+        "https://cf.shopee.ph/file/8e8dc593ca650d8754cb7e0941688957",
+        "https://cf.shopee.ph/file/e8e99b670409ec63d4dc911c41811454",
+        "https://cf.shopee.ph/file/6cdd7eab888fde5d85d4c9162b4b06cc",
+        "https://cf.shopee.ph/file/0262d4be1132df636c5e62904e56fcd7",
+        "https://cf.shopee.ph/file/126bc1cf6761d34c1568918c8093336e",
+        "https://cf.shopee.ph/file/297a22f24c66741710a01ebb0dd6e65e"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.21",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 24
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "-> CLICK TO SEE REVIEWS/RATINGS <-\n\nFresh Bamboo 1000mL\nTop Quality\n\nFor Humidifiers and Electric Diffusers \n\nCan also be used as \n- Room Spray\n- Linen Spray\n- Car Spray\n- Room freshner \n\nInstructions included on the side of the box. PM me if you have questions. Next day ship out. \nThanks"
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul6-lhdf71e7p1pi71",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul6-lhdf71e7p1pi71"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qukx-lhdf71e84hi808",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qukx-lhdf71e84hi808"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7quky-lhdf71e7p19c73",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7quky-lhdf71e7p19c73"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7quky-lhdf71g5m6xsd0",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7quky-lhdf71g5m6xsd0"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qula-lhdf71e84hye54",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qula-lhdf71e84hye54"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul0-lhdf71e85wiu35",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul0-lhdf71e85wiu35"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qukz-lhdf71e7qg9y53",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qukz-lhdf71e7qg9y53"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul7-lhdf71e87b3aec",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul7-lhdf71e87b3aec"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul6-lhdf71e7ruuee9",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul6-lhdf71e7ruuee9"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qul2-lhdf71e88pnq65",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qul2-lhdf71e88pnq65"
+            }
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-7qukz-lhdf71e7t9eu46",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-7qukz-lhdf71e7t9eu46"
+            }
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 5417
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 5417,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "722bf26e5875d9dda44d3ee61f4f164a"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/722bf26e5875d9dda44d3ee61f4f164a"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 40460773114,
+    "category_id": 101128,
+    "item_name": "Sales Invoice do not order",
+    "item_sku": "",
+    "create_time": 1753785991,
+    "update_time": 1756383374,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 5,
+        "current_price": 5
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0n-mcrp1aklwgew18"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0n-mcrp1aklwgew18"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.09",
+    "dimension": {
+      "package_length": 1,
+      "package_width": 1,
+      "package_height": 1
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "\n\n📦 SHIPPING PURPOSES ONLY – SALES INVOICE COPY\n\n‼️ PLEASE READ BEFORE ORDERING ‼️\n\nThis listing is NOT A PRODUCT.\n You are only paying for the physical copy of your sales invoice, to be shipped to your address.\n\n✅ For customers who need a printed invoice for documentation or reimbursement.\n ❌ No actual item will be included.\n ❌ Do NOT order this if you’re expecting a product.\n"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0n-mcrp1aklwgew18"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0n-mcrp1aklwgew18"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 2994461147,
+    "category_id": 101129,
+    "item_name": "(COD) 1 Liter Eucalyptus Waterbased Humidifier Scent Aromatherapy",
+    "description": "1 Liter or 1000ml\n\nEucalyptus Waterbased Scent\n✔ Humidifier/Diffuser Scent\n✔ Room Spray\n✔ Linen Spray\n✔ Car Interior Spray\n\nSHIPPING:\nSame day shipment (cut off at 9am)\nWill ship out within 18 hours\nMetro Manila orders usually arrive a day after ship out (still depends kay courier)\nOrders that were confirmed on Saturday and Sunday will be shipped out on Monday. 😊\n\nPACKAGING:\nBubble wrap + Card board\nAll bottles are individually sealed to ensure no leakage. \n\nFeel free to ask me questions. Will respond as soon as I can. 😊\n\n1000 ML\nLegit\n",
+    "item_sku": "",
+    "create_time": 1632240013,
+    "update_time": 1756383473,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 393
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "23c9273ec0fe40f4ead63cbe1a253980",
+        "7b7cee1d9e6894257e0e0bf707a79908",
+        "16402fa1947a16469283e43f9795e3fc",
+        "2f4fca0f4f351b43096c792b8054d3d2"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/23c9273ec0fe40f4ead63cbe1a253980",
+        "https://cf.shopee.ph/file/7b7cee1d9e6894257e0e0bf707a79908",
+        "https://cf.shopee.ph/file/16402fa1947a16469283e43f9795e3fc",
+        "https://cf.shopee.ph/file/2f4fca0f4f351b43096c792b8054d3d2"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.27",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 396
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 396,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "23c9273ec0fe40f4ead63cbe1a253980"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/23c9273ec0fe40f4ead63cbe1a253980"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 24570916273,
+    "category_id": 101649,
+    "item_name": "Fluffy Essentials Cotton Square Pads Cotton Non-Woven 100 Pieces",
+    "item_sku": "COPA.35",
+    "create_time": 1711413293,
+    "update_time": 1756383381,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 130,
+        "current_price": 130
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r98t-ltbp9h5fl55089",
+        "ph-11134207-7r98s-ltbq0305hsn873"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98t-ltbp9h5fl55089",
+        "https://cf.shopee.ph/file/ph-11134207-7r98s-ltbq0305hsn873"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.35",
+    "dimension": {
+      "package_length": 5,
+      "package_width": 5,
+      "package_height": 10
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2241531,
+      "original_brand_name": "FLUFFY"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Item Specifications for Fluffy Cotton Pads:\n-\tCotton Non-woven\n-       100 Pads\n-       Premium Quality\n-       Soft and gentle on the skin\n-       Hypoallergenic \n-       Biodegradable\n\n\nOn Hand - Quick Delivery\nFor Household or Commercial use"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r98t-ltbp9h5fl55089"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98t-ltbp9h5fl55089"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 40715325508,
+    "category_id": 102572,
+    "item_name": "(NEW!) 1L HYATT Water-Based Hotel Scent for Humidifiers / Diffusers / Linen Spray",
+    "item_sku": "",
+    "create_time": 1756297342,
+    "update_time": 1757220033,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-81zto-mdx6lqwxcgledd",
+        "ph-11134207-81ztf-mdx6yz8kndhh00"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-81zto-mdx6lqwxcgledd",
+        "https://cf.shopee.ph/file/ph-11134207-81ztf-mdx6yz8kndhh00"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.38",
+    "dimension": {
+      "package_length": 8,
+      "package_width": 8,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Here’s a luxury-style product description tailored for your 1L Hyatt Water-Based Hotel Scent:\n\n\n\n1L Hyatt Water-Based Hotel Scent for Humidifiers\n\n\nExperience the understated sophistication of the Hyatt-inspired hotel fragrance, a scent that captures the essence of modern elegance and serene comfort. Crafted with a premium water-based formula, it offers a refined and versatile way to elevate your surroundings.\n\nPerfectly designed for humidifiers, diffusers, and linen sprays, this fragrance envelops your space in a crisp, welcoming aroma—balancing freshness and warmth to evoke the signature ambiance of Hyatt’s world-class hospitality.\n\n✨ Highlights:\n-Inspired by the timeless luxury of Hyatt Hotels\n-Water-based formula for a clean, safe, and enduring diffusion\n-Suitable for humidifiers, diffusers, and fabric sprays\n-Creates a calm, refreshing, and inviting atmosphere\n- Best for living rooms and bedrooms. \n\n\nBring home the refined comfort and modern elegance of a five-star stay—where every detail speaks of warmth, balance, and sophistication.\n"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 36
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 36,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-81zto-mdx6lqwxcgledd"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-81zto-mdx6lqwxcgledd"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 24970906364,
+    "category_id": 101212,
+    "item_name": "Fluffy Essentials FLUSHABLE TISSUE 3 ply 250 pulls x 12 Tissue Rolls x 750 Sheets",
+    "item_sku": "",
+    "create_time": 1711413750,
+    "update_time": 1756383379,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 350,
+        "current_price": 350
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r992-ltbq0305m0ck9c",
+        "ph-11134207-7r98y-ltbq0305nex05d"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r992-ltbq0305m0ck9c",
+        "https://cf.shopee.ph/file/ph-11134207-7r98y-ltbq0305nex05d"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.98",
+    "dimension": {
+      "package_length": 27,
+      "package_width": 17,
+      "package_height": 21
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "video_info": [
+      {
+        "video_url": "https://cvf.shopee.ph/file/api/v4/11110105/mms/ph-11110105-6ke14-ltbq8ifxg6ph1a.16000081711413595.mp4",
+        "thumbnail_url": "https://cf.shopee.ph/file/ph-11110105-7r98w-ltbq8kmgcfasbc",
+        "duration": 32
+      }
+    ],
+    "brand": {
+      "brand_id": 2241531,
+      "original_brand_name": "FLUFFY"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Fluffy Bathroom / Toilet Tissue 3 ply (12 Rolls per pack)\n\n-\t100% Virgin Pulp\n-\t3 Ply\n-\tCottony Softness\n-\t12 Rolls per pack\n-\t250 Pulls\n-\tFlushable \n-\t750 Sheets\n-\tWavy Flower Emboss Design\n-\t15 GSM/ Sheet\n-\tTightly Rolled\n-\tHigh-Grade Premium Quality\n-\tUnscented and Hypo-allergenic\n-      Chlorine-Free\n\nOn Hand - Quick Delivery!\n\nFor Household or Commercial use"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r992-ltbq0305m0ck9c"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r992-ltbq0305m0ck9c"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 20272724048,
+    "category_id": 101129,
+    "item_name": "(COD) 1 Liter Cherry Blossom Waterbased Humidifier, Electric Diffuser and Linen Spray",
+    "item_sku": "",
+    "create_time": 1675827902,
+    "update_time": 1756383385,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0s-mcpvrg2rqqf482",
+        "ph-11134207-23020-h2mo8x8f60mve0"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0s-mcpvrg2rqqf482",
+        "https://cf.shopee.ph/file/ph-11134207-23020-h2mo8x8f60mve0"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.31",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 21
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Cherry Blossom 🌸"
+          },
+          {
+            "field_type": "image",
+            "image_info": {
+              "image_id": "ph-11134208-23020-u1aezekj60mv54",
+              "image_url": "https://cf.shopee.ph/file/ph-11134208-23020-u1aezekj60mv54"
+            }
+          },
+          {
+            "field_type": "text",
+            "text": "\n✔ Humidifier/Diffuser Scent (mix with water)\n✔ Room Spray\n✔ Linen Spray ( BedSheets, Curtains , Pillows, Couches) \n✔ Car Interior Spray\n\nSHIPPING:\nSame day ship out(cut off at 6am)\nMetro Manila orders usually arrive a day after ship out (still depends kay courier)\nOrders that were confirmed on Saturday and Sunday will be shipped out on Monday. 😊\n\nCHOOSE J&T FOR FASTER SHIPPING\n\nPACKAGING:\nBubble wrap + Custom box\nAll bottles are individually sealed to ensure no leakage. \n\nFeel free to ask me questions. Will respond as soon as I can. 😊\n\n1000 ML\nLegit"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 221
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 221,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0s-mcpvrg2rqqf482"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0s-mcpvrg2rqqf482"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 11715006538,
+    "category_id": 101609,
+    "item_name": "Antibacterial Gel Handsoap by L.A. Collections",
+    "description": "1 liter antibacterial handsoap\n\nideal for public restrooms and households.\nmild and safe for hands\nnon-toxic\n\nall bottles are sealed to avoid leakage",
+    "item_sku": "",
+    "create_time": 1624983309,
+    "update_time": 1756383390,
+    "image": {
+      "image_id_list": [
+        "sg-11134201-22110-r72d5ww3mpjv96"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/sg-11134201-22110-r72d5ww3mpjv96"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.5",
+    "dimension": {
+      "package_length": 18,
+      "package_width": 15,
+      "package_height": 10
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "sg-11134201-22110-r72d5ww3mpjv96"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/sg-11134201-22110-r72d5ww3mpjv96"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 11020948637,
+    "category_id": 101129,
+    "item_name": "(COD) 1 liter Solaire Hotel Scent for Humidifier, Diffuser and Linen Spray",
+    "description": "1 liter Solaire Hotel Scent for Humidifier and Linen Spray.\n\nFor:\nDiffusers, Humdifiers, Room and Linen Spray\n\nsafe for kids and pets\n\nWill ship from Pasig City.\nShip out the next day after you order. \n\nThank you!!",
+    "item_sku": "",
+    "create_time": 1627183516,
+    "update_time": 1756383477,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7rasg-m35wd7nks51766",
+        "e7203f44485c433f5221b62e2c0f841e"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasg-m35wd7nks51766",
+        "https://cf.shopee.ph/file/e7203f44485c433f5221b62e2c0f841e"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.34",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 502
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 502,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7rasg-m35wd7nks51766"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rasg-m35wd7nks51766"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 7193623275,
+    "category_id": 101128,
+    "item_name": "(COD) 1 Liter White Tea Waterbased Scent for Humidifiers/ Diffusers and Linen Spray",
+    "description": "(COD) 1 Liter White Tea Waterbased Essential Oil for Humidifiers\n\nhas anti-bacterial properties \n\nPerfect for:\n - Humidifiers\n - Room Spray\n - Linen Spray\n\nlong lasting smell. \nguaranteed no leaks and spillage.\nall bottles are sealed and protected with Bubble wrap and corrugated boxes.\n",
+    "item_sku": "",
+    "create_time": 1625413569,
+    "update_time": 1756383398,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "c02ee81b97cb42d44ea6ceb76908da0f",
+        "5480c4a450aa152542e6a255ed2dced3",
+        "d6d7bf7662f0affd89c18566a8ed0433"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/c02ee81b97cb42d44ea6ceb76908da0f",
+        "https://cf.shopee.ph/file/5480c4a450aa152542e6a255ed2dced3",
+        "https://cf.shopee.ph/file/d6d7bf7662f0affd89c18566a8ed0433"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.28",
+    "dimension": {
+      "package_length": 25,
+      "package_width": 9,
+      "package_height": 9
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 148
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 148,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "c02ee81b97cb42d44ea6ceb76908da0f"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/c02ee81b97cb42d44ea6ceb76908da0f"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 10115007398,
+    "category_id": 101461,
+    "item_name": "1 liter Hydrophobic Car Wax by LA Collections",
+    "description": "1 liter Car Wax by LA Collections\n\nPerfect for\n✔ Car Exterior\n✔ Motorcycles\n✔ Helmets\n✔ Headlight lenses\n\nAdditional hard shell layer for your paint!\nall bottles are sealed to avoid leakage..\nsame day ship out cut off at 9am",
+    "item_sku": "",
+    "create_time": 1624983773,
+    "update_time": 1704802188,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 700,
+        "current_price": 700
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "df0399dfa20644ff95dbdc424b75c41b"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/df0399dfa20644ff95dbdc424b75c41b"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "2",
+    "dimension": {
+      "package_length": 0,
+      "package_width": 0,
+      "package_height": 0
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 2
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "df0399dfa20644ff95dbdc424b75c41b"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/df0399dfa20644ff95dbdc424b75c41b"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 24532932414,
+    "category_id": 101129,
+    "item_name": "(INTRO PRICE) 1 Liter LAKESHORE Waterbased Humidifier Scent by LA Collections",
+    "item_sku": "",
+    "create_time": 1719821969,
+    "update_time": 1756383381,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 380,
+        "current_price": 380
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r98s-lx6mf8mtsp5tb9"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98s-lx6mf8mtsp5tb9"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.39",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 24
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "The Lakeshore Waterbased Scent is a versatile product suitable for both humidifiers and linen sprays, offering a refreshing and pleasant fragrance experience:\n\n**Humidifier:**\nWhen used in a humidifier, the Lakeshore Waterbased Scent disperses a gentle and soothing aroma throughout the room. Ideal for creating a comfortable atmosphere, it helps to humidify the air while infusing it with a subtle yet noticeable fragrance. This makes it perfect for adding a touch of freshness to any indoor environment.\n\n**Linen Spray:**\nAs a linen spray, the Lakeshore Waterbased Scent can be applied to fabrics such as bed linens, curtains, or upholstery. It effectively freshens up textiles with its light and refreshing fragrance, contributing to a clean and inviting ambiance in your home. Simply spray onto fabrics to enjoy the lingering scent that enhances the overall comfort and appeal of your living spaces.\n\nExperience the dual benefits of humidity control and fragrance enhancement with the Lakeshore Waterbased Scent, whether you use it in a humidifier to improve air quality or as a linen spray to refresh fabrics."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r98s-lx6mf8mtsp5tb9"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98s-lx6mf8mtsp5tb9"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 24563211022,
+    "category_id": 101418,
+    "item_name": "Aircon Vent Clip for Hanging DIffusers",
+    "item_sku": "",
+    "create_time": 1707709050,
+    "update_time": 1756383381,
+    "attribute_list": [
+      {
+        "attribute_id": 101227,
+        "original_attribute_name": "Compatible Car Brands",
+        "attribute_value_list": [
+          {
+            "value_id": 7407,
+            "original_value_name": "Honda",
+            "value_unit": ""
+          },
+          {
+            "value_id": 7408,
+            "original_value_name": "Mitsubishi",
+            "value_unit": ""
+          },
+          {
+            "value_id": 7435,
+            "original_value_name": "Mazda",
+            "value_unit": ""
+          },
+          {
+            "value_id": 7436,
+            "original_value_name": "Toyota",
+            "value_unit": ""
+          },
+          {
+            "value_id": 9138,
+            "original_value_name": "Universal",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 35,
+        "current_price": 35
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r98x-lrmj1qb2p1pxc9",
+        "ph-11134207-7r990-lrmj1qb29lh192"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98x-lrmj1qb2p1pxc9",
+        "https://cf.shopee.ph/file/ph-11134207-7r990-lrmj1qb29lh192"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.15",
+    "dimension": {
+      "package_length": 4,
+      "package_width": 4,
+      "package_height": 4
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 386101823292312,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "A vent clip for a diffuser is a convenient accessory that allows you to attach your diffuser to the air vents in your car. It helps distribute the fragrance or essential oils throughout your vehicle."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 346
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 346,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r98x-lrmj1qb2p1pxc9"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98x-lrmj1qb2p1pxc9"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 28482713306,
+    "category_id": 101127,
+    "item_name": "(NEW!) Lavender & Peppermint Waterbased Humidifier/ Linen Spray Scent",
+    "item_sku": "",
+    "create_time": 1744191247,
+    "update_time": 1756383422,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 14250,
+            "original_value_name": "Air Freshener",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 394
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7rase-m8d6xy069mse67",
+        "ph-11134207-7rasa-m8d6xy1070jx73"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rase-m8d6xy069mse67",
+        "https://cf.shopee.ph/file/ph-11134207-7rasa-m8d6xy1070jx73"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.37",
+    "dimension": {
+      "package_length": 25,
+      "package_width": 9,
+      "package_height": 9
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Experience the perfect harmony of calm and clarity with L.A. COLLECTIONS’ Lavender & Peppermint Water-Based Humidifier Scent. Crafted to deliver a balanced fusion of floral serenity and cool invigoration, this scent transforms any space into a refreshing escape.\n\nScent Profile:\n\nLavender: Soft, floral, and soothing — known to relax the mind and body.\n\nPeppermint: Crisp, clean, and energizing — ideal for boosting focus and revitalizing the senses.\n\n\n\nWhy You'll Love It:\n\nBalanced Aromatherapy: A perfect 50/50 blend for those who want to feel both relaxed and refreshed.\n\nWater-Based Formula: Specially designed for ultrasonic and water-based humidifiers — no clogs, no residue.\n\nEveryday Wellness: Ideal for bedrooms, workspaces, yoga studios, and anywhere peace and clarity are needed."
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 337
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 337,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7rase-m8d6xy069mse67"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7rase-m8d6xy069mse67"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 12706851078,
+    "category_id": 101127,
+    "item_name": "1 Liter Fresh Linen Waterbased Essential Oil Humidifier Scent",
+    "description": "1 liter/ 1000ml\n\nGood for Humidifiers/Diffusers/Revitalizer,\ncan also be used as Linen Spray and Room Spray\n\nfeel free to chat if you have questions 😊😊\n",
+    "item_sku": "",
+    "create_time": 1631194607,
+    "update_time": 1756383438,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4031,
+            "original_value_name": "Others",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 394
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0n-mcpvf30b096664"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0n-mcpvf30b096664"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.3",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 19
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 19,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0n-mcpvf30b096664"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0n-mcpvf30b096664"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 8863231191,
+    "category_id": 101129,
+    "item_name": "1 liter Citronella Water Based Humidifier Scent (Anti Mosquito)",
+    "description": "1 liter Citronella Water Based Humidifier Scent\n\nAnti Mosquito\n\nCan be used as:\n- Humidifier Scent\n- Linen Spray\n- Room Spray\n- Car Carpet Spray\n\n\nWill ship a day after you order. 😊\n\n\nSealed bottle. No leaks.",
+    "item_sku": "",
+    "create_time": 1622799572,
+    "update_time": 1756383487,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 393
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7ra0p-mcpvrg2rtjk07f",
+        "615e0746d8f7fd7545a8702de3e3f632"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0p-mcpvrg2rtjk07f",
+        "https://cf.shopee.ph/file/615e0746d8f7fd7545a8702de3e3f632"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.28",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 469
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 469,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "gtin_code": "",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7ra0p-mcpvrg2rtjk07f"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7ra0p-mcpvrg2rtjk07f"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 25170906640,
+    "category_id": 101211,
+    "item_name": "Fluffy Essentials Interfolded Paper Towels 2 Ply 600 Sheets 300 Pulls",
+    "item_sku": "",
+    "create_time": 1711413884,
+    "update_time": 1756383379,
+    "attribute_list": [
+      {
+        "attribute_id": 100837,
+        "original_attribute_name": "Tissue Paper Type",
+        "attribute_value_list": [
+          {
+            "value_id": 4342,
+            "original_value_name": "Tissue",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": false
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 210,
+        "current_price": 210
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "ph-11134207-7r98q-ltbq0305othgff",
+        "ph-11134207-7r98v-ltbq0305q81w0a"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98q-ltbq0305othgff",
+        "https://cf.shopee.ph/file/ph-11134207-7r98v-ltbq0305q81w0a"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "0.97",
+    "dimension": {
+      "package_length": 23,
+      "package_width": 8,
+      "package_height": 22
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": false,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 0,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2241531,
+      "original_brand_name": "FLUFFY"
+    },
+    "item_dangerous": 0,
+    "description_info": {
+      "extended_description": {
+        "field_list": [
+          {
+            "field_type": "text",
+            "text": "Fluffy Essentials paper towels are used to wipe for spills, dusting, wiping, etc. in the dining or kitchen area for hygienic purposes.\n\nPackage includes:\n2 packs of interfolded paper towels\n\nDescription:\n150 Pulls Per Pack\n300 Sheets Per Pack\nBiodegradable\nHypo-Allergenic\nFSC Certified Product\nSafe for Food Contact\nBuy 1 Take 1 Bundle\nPremium Quality\n\nON HAND!\nQUICK DELIVERY!"
+          }
+        ]
+      }
+    },
+    "description_type": "extended",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 0
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 0,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "ph-11134207-7r98q-ltbq0305othgff"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/ph-11134207-7r98q-ltbq0305othgff"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 10711435960,
+    "category_id": 101127,
+    "item_name": "Lavender Waterbased Humidifier Scent/Linen Spray/Room Spray",
+    "description": "Lavender Waterbased Humidifier Scent/Linen Spray/Room Spray\n\n- Safe for pets\n- Long lasting\n\n- Ship out within 16 hrs.\nSame day ship out cut off 9:00am\n\nFeel free to ask questions. thanks\n",
+    "item_sku": "",
+    "create_time": 1623722194,
+    "update_time": 1756383463,
+    "attribute_list": [
+      {
+        "attribute_id": 100784,
+        "original_attribute_name": "Fragrance Form",
+        "attribute_value_list": [
+          {
+            "value_id": 4089,
+            "original_value_name": "Spray",
+            "value_unit": ""
+          }
+        ],
+        "is_mandatory": true
+      }
+    ],
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 393
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "2960b0eb9c78620b480a04bf4949b629",
+        "dcead2ccc53da317b069f01efa7cb397",
+        "964b41a681bcdf06a1d9e9c9a379702a",
+        "ade1c1605f208e5bb82262d562abdfd6",
+        "f53f4143be1da0d492543b1b2a727b7e",
+        "2429bb8f6c6e04e9839f229963eb14fb"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/2960b0eb9c78620b480a04bf4949b629",
+        "https://cf.shopee.ph/file/dcead2ccc53da317b069f01efa7cb397",
+        "https://cf.shopee.ph/file/964b41a681bcdf06a1d9e9c9a379702a",
+        "https://cf.shopee.ph/file/ade1c1605f208e5bb82262d562abdfd6",
+        "https://cf.shopee.ph/file/f53f4143be1da0d492543b1b2a727b7e",
+        "https://cf.shopee.ph/file/2429bb8f6c6e04e9839f229963eb14fb"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.31",
+    "dimension": {
+      "package_length": 9,
+      "package_width": 9,
+      "package_height": 25
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "video_info": [
+      {
+        "video_url": "https://cvf.shopee.ph/file/e4510e62832dc6feb6e2e0dbbaebb5fc",
+        "thumbnail_url": "https://cf.shopee.ph/file/0cb1f84058e9dbb5184d6a21717d140e",
+        "duration": 11
+      }
+    ],
+    "brand": {
+      "brand_id": 0,
+      "original_brand_name": "NoBrand"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 2
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 2,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "2960b0eb9c78620b480a04bf4949b629"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/2960b0eb9c78620b480a04bf4949b629"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 9540916930,
+    "category_id": 101128,
+    "item_name": "(COD) 1L Marriott Hotel Waterbased Essential Oil for Diffusers/Humidifiers",
+    "description": "Marriott Humidifier Scent\n\n✔ For Humidifiers/Diffusers\n✔ Room Spray\n✔ Linen Spray ( BedSheets, Curtains , Pillows, Couches) \n✔ Car Interior Spray\n\nSHIPPING:\nSame day ship out(cut off at 6am)\nMetro Manila orders usually arrive a day after ship out (still depends kay courier)\nOrders that were confirmed on Saturday and Sunday will be shipped out on Monday. 😊\n\nCHOOSE J&T FOR FASTER SHIPPING\n\nPACKAGING:\nBubble wrap + Custom box\nAll bottles are individually sealed to ensure no leakage. \n\nFeel free to ask me questions. Will respond as soon as I can. 😊\n\n1000 ML\nLegit\n\n",
+    "item_sku": "",
+    "create_time": 1618228158,
+    "update_time": 1756383472,
+    "price_info": [
+      {
+        "currency": "PHP",
+        "original_price": 395,
+        "current_price": 395
+      }
+    ],
+    "image": {
+      "image_id_list": [
+        "cbafc5286c4d129e9ec454d72bbf4c0f",
+        "cf38ef3bfbf234acf6119ff1ec8c093d",
+        "46c8d8bcd57ae1ff59b12385c80dfbbc",
+        "17b6b4ff1707304a388b00a0b94f0137",
+        "c84817284ba5548300e4f51586122b4b",
+        "e5931f8f75627963a8573cd640757ace",
+        "b2ca880471820d78199fc2509e551deb"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/cbafc5286c4d129e9ec454d72bbf4c0f",
+        "https://cf.shopee.ph/file/cf38ef3bfbf234acf6119ff1ec8c093d",
+        "https://cf.shopee.ph/file/46c8d8bcd57ae1ff59b12385c80dfbbc",
+        "https://cf.shopee.ph/file/17b6b4ff1707304a388b00a0b94f0137",
+        "https://cf.shopee.ph/file/c84817284ba5548300e4f51586122b4b",
+        "https://cf.shopee.ph/file/e5931f8f75627963a8573cd640757ace",
+        "https://cf.shopee.ph/file/b2ca880471820d78199fc2509e551deb"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.22",
+    "dimension": {
+      "package_length": 25,
+      "package_width": 9,
+      "package_height": 9
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": false,
+    "promotion_id": 367199009521745,
+    "has_promotion": true,
+    "video_info": [
+      {
+        "video_url": "https://cvf.shopee.ph/file/e6e1a76eda99f7218d3da8c9ef5b72b0",
+        "thumbnail_url": "https://cf.shopee.ph/file/6aaa52e3e38d1210cba6317869ac83a8",
+        "duration": 12
+      }
+    ],
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "stock_info_v2": {
+      "summary_info": {
+        "total_reserved_stock": 0,
+        "total_available_stock": 74
+      },
+      "seller_stock": [
+        {
+          "location_id": "PHZ",
+          "stock": 74,
+          "if_saleable": true
+        }
+      ],
+      "shopee_stock": [
+        {
+          "location_id": "",
+          "stock": 0
+        }
+      ],
+      "advance_stock": {
+        "sellable_advance_stock": 0,
+        "in_transit_advance_stock": 0
+      }
+    },
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "cbafc5286c4d129e9ec454d72bbf4c0f"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/cbafc5286c4d129e9ec454d72bbf4c0f"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  },
+  {
+    "item_id": 5584672956,
+    "category_id": 101128,
+    "item_name": "1L Waterbased Essential Oil for Humidifiers, Diffusers and Revitalizers",
+    "description": "LA COLLECTIONS WATERBASED ESSENTIAL OIL\n1000ML/1 LITER\n\nSafe for pets and kids.\nGood for:\n- Humidifiers\n- E-Diffusers\n- Revitalizers\n- Linen Spray\n- Room Spray\n\nAll bottles are machine sealed to prevent leaks.\npacked with bubble wrap and cardboard. \n\nSame day ship out 6am cut off \n",
+    "item_sku": "",
+    "create_time": 1617688450,
+    "update_time": 1756383773,
+    "image": {
+      "image_id_list": [
+        "d11a7a0557751625025ba78f624360e8",
+        "cebef1e513a57c51071b8d1680b24255"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/d11a7a0557751625025ba78f624360e8",
+        "https://cf.shopee.ph/file/cebef1e513a57c51071b8d1680b24255"
+      ],
+      "image_ratio": "1:1"
+    },
+    "weight": "1.69",
+    "dimension": {
+      "package_length": 8,
+      "package_width": 8,
+      "package_height": 23
+    },
+    "logistic_info": [
+      {
+        "logistic_id": 40029,
+        "logistic_name": "Shopee Self Pick-up",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false,
+        "estimated_shipping_fee": 0
+      },
+      {
+        "logistic_id": 4103,
+        "logistic_name": "Express Air Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false,
+        "estimated_shipping_fee": 150
+      },
+      {
+        "logistic_id": 4000,
+        "logistic_name": "Standard Local",
+        "enabled": true,
+        "size_id": 0,
+        "is_free": false,
+        "estimated_shipping_fee": 36
+      }
+    ],
+    "pre_order": {
+      "is_pre_order": false,
+      "days_to_ship": 1
+    },
+    "condition": "NEW",
+    "size_chart": "",
+    "item_status": "NORMAL",
+    "has_model": true,
+    "promotion_id": 367199735136480,
+    "has_promotion": true,
+    "brand": {
+      "brand_id": 2118692,
+      "original_brand_name": "LA Collections"
+    },
+    "item_dangerous": 0,
+    "description_type": "normal",
+    "size_chart_id": 0,
+    "promotion_image": {
+      "image_id_list": [
+        "d11a7a0557751625025ba78f624360e8"
+      ],
+      "image_url_list": [
+        "https://cf.shopee.ph/file/d11a7a0557751625025ba78f624360e8"
+      ]
+    },
+    "deboost": "FALSE",
+    "compatibility_info": {},
+    "authorised_brand_id": 0,
+    "is_fulfillment_by_shopee": false,
+    "tag": {
+      "kit": false
+    },
+    "purchase_limit_info": {
+      "min_purchase_limit": 1
+    }
+  }
+]
