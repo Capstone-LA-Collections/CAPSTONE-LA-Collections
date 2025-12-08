@@ -154,3 +154,41 @@ def load_base_sales_data(start_date='2022-10-05', end_date='2025-10-31', platfor
                 return pd.DataFrame() 
 
     return pd.DataFrame()
+
+# --- ADD THIS TO load_data.py ---
+
+def load_transactional_data(start_date, end_date, platform='lazada'):
+    """
+    Fetches line-item level transactions using the 'get_sales_transactions' RPC.
+    Used for basket analysis (e.g., how many orders are > 600).
+    """
+    supabase = get_supabase_client()
+    
+    try:
+        print(f"   [Data] Fetching transactions from {start_date} to {end_date}...")
+        
+        response = (
+            supabase.rpc(
+                'get_sales_transactions', 
+                {
+                    'start_date': start_date, 
+                    'end_date': end_date,
+                    'p_platform_name': platform
+                }
+            ).execute()
+        )
+        
+        df = pd.DataFrame(response.data)
+        
+        if df.empty:
+            return pd.DataFrame()
+
+        # Type conversion for critical math columns
+        df['line_item_sales'] = pd.to_numeric(df['line_item_sales'], errors='coerce').fillna(0)
+        df['order_date'] = pd.to_datetime(df['order_date'])
+        
+        return df
+
+    except Exception as e:
+        print(f"Error fetching transactions: {str(e)}")
+        return pd.DataFrame()
