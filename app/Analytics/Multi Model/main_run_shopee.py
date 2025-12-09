@@ -139,8 +139,9 @@ def main():
             
             # G. Plot
             plt.figure(figsize=(12, 6))
-            recent_history = df.tail(548) 
-            plt.plot(recent_history['ds'], recent_history['y'], label='History (Last 6mo)', color='gray', alpha=0.5)
+            #recent_history = df.tail(548) 
+            #plt.plot(recent_history['ds'], recent_history['y'], label='History (Last 6mo)', color='gray', alpha=0.5)
+            plt.plot(df['ds'], df['y'], label='History', color='gray', alpha=0.5)
             plt.plot(final_future_df['ds'], final_future_df['hybrid_forecast'], label='Hybrid Forecast', color='red')
             plt.plot(final_future_df['ds'], final_future_df['base_forecast'], label='Base Forecast', linestyle='--')
             plt.title(f"{model_name} + Iterative XGBoost")
